@@ -1,0 +1,224 @@
+2016-12-20 13:59:51,220 [INFO] [cn.ac.iie.hy.areamonitor.server.AreaMonitorServer.init(AreaMonitorServer.java:79)] [main] - initializing system...
+2016-12-20 13:59:51,227 [INFO] [cn.ac.iie.hy.areamonitor.server.AreaMonitorServer.init(AreaMonitorServer.java:80)] [main] - getting configuration from configuration file sysconfig.properties
+2016-12-20 13:59:51,241 [DEBUG] [cn.ac.iie.hy.areamonitor.config.Configuration.dumpConfiguration(Configuration.java:130)] [main] - jettyServerPort=9527
+2016-12-20 13:59:51,241 [DEBUG] [cn.ac.iie.hy.areamonitor.config.Configuration.dumpConfiguration(Configuration.java:130)] [main] - redisConfigServer=10.224.73.1:6379
+2016-12-20 13:59:51,241 [DEBUG] [cn.ac.iie.hy.areamonitor.config.Configuration.dumpConfiguration(Configuration.java:130)] [main] - jettyServerIP=127.0.0.1
+2016-12-20 13:59:51,242 [DEBUG] [cn.ac.iie.hy.areamonitor.config.Configuration.dumpConfiguration(Configuration.java:130)] [main] - redisList=10.224.78.2:6379 10.224.78.2:6380 10.224.78.2:6381 10.224.78.2:6382
+2016-12-20 13:59:51,242 [DEBUG] [cn.ac.iie.hy.areamonitor.config.Configuration.dumpConfiguration(Configuration.java:130)] [main] - redisQueueServer=10.224.78.7:6379
+2016-12-20 13:59:51,385 [INFO] [cn.ac.iie.hy.areamonitor.server.AreaMonitorServer.init(AreaMonitorServer.java:107)] [main] - intialize system successfully
+2016-12-20 13:59:51,389 [INFO] [cn.ac.iie.hy.areamonitor.server.AreaMonitorServer.init(AreaMonitorServer.java:108)] [main] - config host is http://127.0.0.1:9527/sysconfig
+2016-12-20 13:59:51,469 [INFO] [cn.ac.iie.hy.areamonitor.server.AreaMonitorServer.startup(AreaMonitorServer.java:71)] [main] - starting system...
+2016-12-20 13:59:51,831 [INFO] [cn.ac.iie.hy.areamonitor.server.AreaMonitorServer.startup(AreaMonitorServer.java:73)] [main] - start system successfully
+2016-12-20 13:59:56,675 [INFO] [cn.ac.iie.hy.areamonitor.task.ScheduledDataFlowTask.run(ScheduledDataFlowTask.java:86)] [pool-3-thread-1] - areaID AREA_01038173891231 Current User 27 Left User 27
+2016-12-20 14:00:06,626 [INFO] [cn.ac.iie.hy.areamonitor.task.ScheduledDataFlowTask.run(ScheduledDataFlowTask.java:86)] [pool-3-thread-1] - areaID AREA_01038173891231 Current User 33 Left User 31
+2016-12-20 14:00:16,626 [INFO] [cn.ac.iie.hy.areamonitor.task.ScheduledDataFlowTask.run(ScheduledDataFlowTask.java:86)] [pool-3-thread-1] - areaID AREA_01038173891231 Current User 36 Left User 32
+2016-12-20 14:06:32,469 [INFO] [cn.ac.iie.hy.areamonitor.server.AreaMonitorServer.init(AreaMonitorServer.java:79)] [main] - initializing system...
+2016-12-20 14:06:32,471 [INFO] [cn.ac.iie.hy.areamonitor.server.AreaMonitorServer.init(AreaMonitorServer.java:80)] [main] - getting configuration from configuration file sysconfig.properties
+2016-12-20 14:06:32,475 [DEBUG] [cn.ac.iie.hy.areamonitor.config.Configuration.dumpConfiguration(Configuration.java:130)] [main] - jettyServerPort=9527
+2016-12-20 14:06:32,475 [DEBUG] [cn.ac.iie.hy.areamonitor.config.Configuration.dumpConfiguration(Configuration.java:130)] [main] - redisConfigServer=10.224.73.1:6379
+2016-12-20 14:06:32,475 [DEBUG] [cn.ac.iie.hy.areamonitor.config.Configuration.dumpConfiguration(Configuration.java:130)] [main] - jettyServerIP=127.0.0.1
+2016-12-20 14:06:32,475 [DEBUG] [cn.ac.iie.hy.areamonitor.config.Configuration.dumpConfiguration(Configuration.java:130)] [main] - redisList=10.224.78.2:6379 10.224.78.2:6380 10.224.78.2:6381 10.224.78.2:6382
+2016-12-20 14:06:32,476 [DEBUG] [cn.ac.iie.hy.areamonitor.config.Configuration.dumpConfiguration(Configuration.java:130)] [main] - redisQueueServer=10.224.78.7:6379
+2016-12-20 14:06:32,561 [INFO] [cn.ac.iie.hy.areamonitor.server.AreaMonitorServer.init(AreaMonitorServer.java:107)] [main] - intialize system successfully
+2016-12-20 14:06:32,561 [INFO] [cn.ac.iie.hy.areamonitor.server.AreaMonitorServer.init(AreaMonitorServer.java:108)] [main] - config host is http://127.0.0.1:9527/sysconfig
+2016-12-20 14:06:32,602 [INFO] [cn.ac.iie.hy.areamonitor.server.AreaMonitorServer.startup(AreaMonitorServer.java:71)] [main] - starting system...
+2016-12-20 14:06:32,855 [INFO] [cn.ac.iie.hy.areamonitor.server.AreaMonitorServer.startup(AreaMonitorServer.java:73)] [main] - start system successfully
+2016-12-20 14:06:37,748 [INFO] [cn.ac.iie.hy.areamonitor.task.ScheduledDataFlowTask.run(ScheduledDataFlowTask.java:86)] [pool-3-thread-1] - areaID AREA_01038173891231 Current User 19 Left User 16
+2016-12-20 14:06:47,981 [INFO] [cn.ac.iie.hy.areamonitor.task.ScheduledDataFlowTask.run(ScheduledDataFlowTask.java:86)] [pool-3-thread-1] - areaID AREA_01038173891231 Current User 34 Left User 31
+2016-12-20 14:06:57,862 [INFO] [cn.ac.iie.hy.areamonitor.task.ScheduledDataFlowTask.run(ScheduledDataFlowTask.java:86)] [pool-3-thread-1] - areaID AREA_01038173891231 Current User 42 Left User 30
+2016-12-20 14:07:08,115 [INFO] [cn.ac.iie.hy.areamonitor.task.ScheduledDataFlowTask.run(ScheduledDataFlowTask.java:86)] [pool-3-thread-1] - areaID AREA_01038173891231 Current User 43 Left User 31
+2016-12-20 14:55:25,916 [INFO] [org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1172)] [main] - Using default implementation for ThreadExecutor
+2016-12-20 14:55:25,922 [INFO] [org.quartz.simpl.SimpleThreadPool.initialize(SimpleThreadPool.java:268)] [main] - Job execution threads will use class loader of thread: main
+2016-12-20 14:55:25,936 [INFO] [org.quartz.core.SchedulerSignalerImpl.<init>(SchedulerSignalerImpl.java:61)] [main] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2016-12-20 14:55:25,936 [INFO] [org.quartz.core.QuartzScheduler.<init>(QuartzScheduler.java:240)] [main] - Quartz Scheduler v.2.2.3 created.
+2016-12-20 14:55:25,937 [INFO] [org.quartz.simpl.RAMJobStore.initialize(RAMJobStore.java:155)] [main] - RAMJobStore initialized.
+2016-12-20 14:55:25,938 [INFO] [org.quartz.core.QuartzScheduler.initialize(QuartzScheduler.java:305)] [main] - Scheduler meta-data: Quartz Scheduler (v2.2.3) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-12-20 14:55:25,938 [INFO] [org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1327)] [main] - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2016-12-20 14:55:25,938 [INFO] [org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1331)] [main] - Quartz scheduler version: 2.2.3
+2016-12-20 14:55:25,950 [INFO] [org.quartz.core.QuartzScheduler.shutdown(QuartzScheduler.java:694)] [main] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
+2016-12-20 14:55:25,950 [INFO] [org.quartz.core.QuartzScheduler.standby(QuartzScheduler.java:613)] [main] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
+2016-12-20 14:55:25,950 [DEBUG] [org.quartz.simpl.SimpleThreadPool.shutdown(SimpleThreadPool.java:328)] [main] - Shutting down threadpool...
+2016-12-20 14:55:26,424 [DEBUG] [org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:612)] [DefaultQuartzScheduler_Worker-1] - WorkerThread is shut down.
+2016-12-20 14:55:26,424 [DEBUG] [org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:612)] [DefaultQuartzScheduler_Worker-2] - WorkerThread is shut down.
+2016-12-20 14:55:26,425 [DEBUG] [org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:612)] [DefaultQuartzScheduler_Worker-10] - WorkerThread is shut down.
+2016-12-20 14:55:26,425 [DEBUG] [org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:612)] [DefaultQuartzScheduler_Worker-4] - WorkerThread is shut down.
+2016-12-20 14:55:26,425 [DEBUG] [org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:612)] [DefaultQuartzScheduler_Worker-5] - WorkerThread is shut down.
+2016-12-20 14:55:26,425 [DEBUG] [org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:612)] [DefaultQuartzScheduler_Worker-3] - WorkerThread is shut down.
+2016-12-20 14:55:26,425 [DEBUG] [org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:612)] [DefaultQuartzScheduler_Worker-8] - WorkerThread is shut down.
+2016-12-20 14:55:26,425 [DEBUG] [org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:612)] [DefaultQuartzScheduler_Worker-6] - WorkerThread is shut down.
+2016-12-20 14:55:26,425 [DEBUG] [org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:612)] [DefaultQuartzScheduler_Worker-9] - WorkerThread is shut down.
+2016-12-20 14:55:26,425 [DEBUG] [org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:612)] [DefaultQuartzScheduler_Worker-7] - WorkerThread is shut down.
+2016-12-20 14:55:26,426 [DEBUG] [org.quartz.simpl.SimpleThreadPool.shutdown(SimpleThreadPool.java:393)] [main] - No executing jobs remaining, all threads stopped.
+2016-12-20 14:55:26,427 [DEBUG] [org.quartz.simpl.SimpleThreadPool.shutdown(SimpleThreadPool.java:395)] [main] - Shutdown of threadpool complete.
+2016-12-20 14:55:26,427 [INFO] [org.quartz.core.QuartzScheduler.shutdown(QuartzScheduler.java:771)] [main] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
+2016-12-20 14:57:27,565 [INFO] [org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1172)] [main] - Using default implementation for ThreadExecutor
+2016-12-20 14:57:27,573 [INFO] [org.quartz.simpl.SimpleThreadPool.initialize(SimpleThreadPool.java:268)] [main] - Job execution threads will use class loader of thread: main
+2016-12-20 14:57:27,585 [INFO] [org.quartz.core.SchedulerSignalerImpl.<init>(SchedulerSignalerImpl.java:61)] [main] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2016-12-20 14:57:27,586 [INFO] [org.quartz.core.QuartzScheduler.<init>(QuartzScheduler.java:240)] [main] - Quartz Scheduler v.2.2.3 created.
+2016-12-20 14:57:27,587 [INFO] [org.quartz.simpl.RAMJobStore.initialize(RAMJobStore.java:155)] [main] - RAMJobStore initialized.
+2016-12-20 14:57:27,588 [INFO] [org.quartz.core.QuartzScheduler.initialize(QuartzScheduler.java:305)] [main] - Scheduler meta-data: Quartz Scheduler (v2.2.3) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-12-20 14:57:27,589 [INFO] [org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1327)] [main] - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2016-12-20 14:57:27,589 [INFO] [org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1331)] [main] - Quartz scheduler version: 2.2.3
+2016-12-20 14:58:36,293 [INFO] [org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1172)] [main] - Using default implementation for ThreadExecutor
+2016-12-20 14:58:36,301 [INFO] [org.quartz.simpl.SimpleThreadPool.initialize(SimpleThreadPool.java:268)] [main] - Job execution threads will use class loader of thread: main
+2016-12-20 14:58:36,321 [INFO] [org.quartz.core.SchedulerSignalerImpl.<init>(SchedulerSignalerImpl.java:61)] [main] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2016-12-20 14:58:36,321 [INFO] [org.quartz.core.QuartzScheduler.<init>(QuartzScheduler.java:240)] [main] - Quartz Scheduler v.2.2.3 created.
+2016-12-20 14:58:36,322 [INFO] [org.quartz.simpl.RAMJobStore.initialize(RAMJobStore.java:155)] [main] - RAMJobStore initialized.
+2016-12-20 14:58:36,323 [INFO] [org.quartz.core.QuartzScheduler.initialize(QuartzScheduler.java:305)] [main] - Scheduler meta-data: Quartz Scheduler (v2.2.3) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-12-20 14:58:36,323 [INFO] [org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1327)] [main] - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2016-12-20 14:58:36,323 [INFO] [org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1331)] [main] - Quartz scheduler version: 2.2.3
+2016-12-20 14:59:16,173 [INFO] [org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1172)] [main] - Using default implementation for ThreadExecutor
+2016-12-20 14:59:16,179 [INFO] [org.quartz.simpl.SimpleThreadPool.initialize(SimpleThreadPool.java:268)] [main] - Job execution threads will use class loader of thread: main
+2016-12-20 14:59:16,193 [INFO] [org.quartz.core.SchedulerSignalerImpl.<init>(SchedulerSignalerImpl.java:61)] [main] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2016-12-20 14:59:16,194 [INFO] [org.quartz.core.QuartzScheduler.<init>(QuartzScheduler.java:240)] [main] - Quartz Scheduler v.2.2.3 created.
+2016-12-20 14:59:16,195 [INFO] [org.quartz.simpl.RAMJobStore.initialize(RAMJobStore.java:155)] [main] - RAMJobStore initialized.
+2016-12-20 14:59:16,196 [INFO] [org.quartz.core.QuartzScheduler.initialize(QuartzScheduler.java:305)] [main] - Scheduler meta-data: Quartz Scheduler (v2.2.3) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-12-20 14:59:16,196 [INFO] [org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1327)] [main] - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2016-12-20 14:59:16,196 [INFO] [org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1331)] [main] - Quartz scheduler version: 2.2.3
+2016-12-20 14:59:54,111 [INFO] [org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1172)] [main] - Using default implementation for ThreadExecutor
+2016-12-20 14:59:54,115 [INFO] [org.quartz.simpl.SimpleThreadPool.initialize(SimpleThreadPool.java:268)] [main] - Job execution threads will use class loader of thread: main
+2016-12-20 14:59:54,133 [INFO] [org.quartz.core.SchedulerSignalerImpl.<init>(SchedulerSignalerImpl.java:61)] [main] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2016-12-20 14:59:54,134 [INFO] [org.quartz.core.QuartzScheduler.<init>(QuartzScheduler.java:240)] [main] - Quartz Scheduler v.2.2.3 created.
+2016-12-20 14:59:54,135 [INFO] [org.quartz.simpl.RAMJobStore.initialize(RAMJobStore.java:155)] [main] - RAMJobStore initialized.
+2016-12-20 14:59:54,136 [INFO] [org.quartz.core.QuartzScheduler.initialize(QuartzScheduler.java:305)] [main] - Scheduler meta-data: Quartz Scheduler (v2.2.3) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-12-20 14:59:54,136 [INFO] [org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1327)] [main] - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2016-12-20 14:59:54,137 [INFO] [org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1331)] [main] - Quartz scheduler version: 2.2.3
+2016-12-20 14:59:54,147 [INFO] [org.quartz.core.QuartzScheduler.start(QuartzScheduler.java:575)] [main] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-12-20 14:59:54,148 [DEBUG] [org.quartz.core.QuartzSchedulerThread.run(QuartzSchedulerThread.java:276)] [DefaultQuartzScheduler_QuartzSchedulerThread] - batch acquisition of 1 triggers
+2016-12-20 14:59:54,150 [DEBUG] [org.quartz.simpl.SimpleJobFactory.newJob(SimpleJobFactory.java:51)] [DefaultQuartzScheduler_QuartzSchedulerThread] - Producing instance of Job 'group1.job1', class=cn.ac.iie.hy.areamonitor.test.SimpleJob
+2016-12-20 14:59:54,158 [DEBUG] [org.quartz.core.QuartzSchedulerThread.run(QuartzSchedulerThread.java:276)] [DefaultQuartzScheduler_QuartzSchedulerThread] - batch acquisition of 1 triggers
+2016-12-20 14:59:54,159 [DEBUG] [org.quartz.core.JobRunShell.run(JobRunShell.java:201)] [DefaultQuartzScheduler_Worker-1] - Calling execute on job group1.job1
+2016-12-20 14:59:55,001 [DEBUG] [org.quartz.simpl.SimpleJobFactory.newJob(SimpleJobFactory.java:51)] [DefaultQuartzScheduler_QuartzSchedulerThread] - Producing instance of Job 'group1.job1', class=cn.ac.iie.hy.areamonitor.test.SimpleJob
+2016-12-20 14:59:55,004 [DEBUG] [org.quartz.core.JobRunShell.run(JobRunShell.java:201)] [DefaultQuartzScheduler_Worker-2] - Calling execute on job group1.job1
+2016-12-20 14:59:55,004 [DEBUG] [org.quartz.core.QuartzSchedulerThread.run(QuartzSchedulerThread.java:276)] [DefaultQuartzScheduler_QuartzSchedulerThread] - batch acquisition of 1 triggers
+2016-12-20 14:59:56,002 [DEBUG] [org.quartz.simpl.SimpleJobFactory.newJob(SimpleJobFactory.java:51)] [DefaultQuartzScheduler_QuartzSchedulerThread] - Producing instance of Job 'group1.job1', class=cn.ac.iie.hy.areamonitor.test.SimpleJob
+2016-12-20 14:59:56,014 [DEBUG] [org.quartz.core.JobRunShell.run(JobRunShell.java:201)] [DefaultQuartzScheduler_Worker-3] - Calling execute on job group1.job1
+2016-12-20 14:59:56,015 [DEBUG] [org.quartz.core.QuartzSchedulerThread.run(QuartzSchedulerThread.java:276)] [DefaultQuartzScheduler_QuartzSchedulerThread] - batch acquisition of 1 triggers
+2016-12-20 14:59:57,001 [DEBUG] [org.quartz.simpl.SimpleJobFactory.newJob(SimpleJobFactory.java:51)] [DefaultQuartzScheduler_QuartzSchedulerThread] - Producing instance of Job 'group1.job1', class=cn.ac.iie.hy.areamonitor.test.SimpleJob
+2016-12-20 14:59:57,007 [DEBUG] [org.quartz.core.JobRunShell.run(JobRunShell.java:201)] [DefaultQuartzScheduler_Worker-4] - Calling execute on job group1.job1
+2016-12-20 14:59:57,007 [DEBUG] [org.quartz.core.QuartzSchedulerThread.run(QuartzSchedulerThread.java:276)] [DefaultQuartzScheduler_QuartzSchedulerThread] - batch acquisition of 1 triggers
+2016-12-20 14:59:58,002 [DEBUG] [org.quartz.simpl.SimpleJobFactory.newJob(SimpleJobFactory.java:51)] [DefaultQuartzScheduler_QuartzSchedulerThread] - Producing instance of Job 'group1.job1', class=cn.ac.iie.hy.areamonitor.test.SimpleJob
+2016-12-20 14:59:58,008 [DEBUG] [org.quartz.core.JobRunShell.run(JobRunShell.java:201)] [DefaultQuartzScheduler_Worker-5] - Calling execute on job group1.job1
+2016-12-20 14:59:58,009 [DEBUG] [org.quartz.core.QuartzSchedulerThread.run(QuartzSchedulerThread.java:276)] [DefaultQuartzScheduler_QuartzSchedulerThread] - batch acquisition of 1 triggers
+2016-12-20 14:59:59,001 [DEBUG] [org.quartz.simpl.SimpleJobFactory.newJob(SimpleJobFactory.java:51)] [DefaultQuartzScheduler_QuartzSchedulerThread] - Producing instance of Job 'group1.job1', class=cn.ac.iie.hy.areamonitor.test.SimpleJob
+2016-12-20 14:59:59,009 [DEBUG] [org.quartz.core.JobRunShell.run(JobRunShell.java:201)] [DefaultQuartzScheduler_Worker-6] - Calling execute on job group1.job1
+2016-12-20 14:59:59,010 [DEBUG] [org.quartz.core.QuartzSchedulerThread.run(QuartzSchedulerThread.java:276)] [DefaultQuartzScheduler_QuartzSchedulerThread] - batch acquisition of 1 triggers
+2016-12-20 15:00:00,001 [DEBUG] [org.quartz.simpl.SimpleJobFactory.newJob(SimpleJobFactory.java:51)] [DefaultQuartzScheduler_QuartzSchedulerThread] - Producing instance of Job 'group1.job1', class=cn.ac.iie.hy.areamonitor.test.SimpleJob
+2016-12-20 15:00:00,013 [DEBUG] [org.quartz.core.JobRunShell.run(JobRunShell.java:201)] [DefaultQuartzScheduler_Worker-7] - Calling execute on job group1.job1
+2016-12-20 15:00:00,014 [DEBUG] [org.quartz.core.QuartzSchedulerThread.run(QuartzSchedulerThread.java:276)] [DefaultQuartzScheduler_QuartzSchedulerThread] - batch acquisition of 1 triggers
+2016-12-20 15:00:01,000 [DEBUG] [org.quartz.simpl.SimpleJobFactory.newJob(SimpleJobFactory.java:51)] [DefaultQuartzScheduler_QuartzSchedulerThread] - Producing instance of Job 'group1.job1', class=cn.ac.iie.hy.areamonitor.test.SimpleJob
+2016-12-20 15:00:01,002 [DEBUG] [org.quartz.core.JobRunShell.run(JobRunShell.java:201)] [DefaultQuartzScheduler_Worker-8] - Calling execute on job group1.job1
+2016-12-20 15:00:01,002 [DEBUG] [org.quartz.core.QuartzSchedulerThread.run(QuartzSchedulerThread.java:276)] [DefaultQuartzScheduler_QuartzSchedulerThread] - batch acquisition of 1 triggers
+2016-12-20 15:00:02,001 [DEBUG] [org.quartz.simpl.SimpleJobFactory.newJob(SimpleJobFactory.java:51)] [DefaultQuartzScheduler_QuartzSchedulerThread] - Producing instance of Job 'group1.job1', class=cn.ac.iie.hy.areamonitor.test.SimpleJob
+2016-12-20 15:00:02,007 [DEBUG] [org.quartz.core.JobRunShell.run(JobRunShell.java:201)] [DefaultQuartzScheduler_Worker-9] - Calling execute on job group1.job1
+2016-12-20 15:00:02,007 [DEBUG] [org.quartz.core.QuartzSchedulerThread.run(QuartzSchedulerThread.java:276)] [DefaultQuartzScheduler_QuartzSchedulerThread] - batch acquisition of 1 triggers
+2016-12-20 15:00:03,001 [DEBUG] [org.quartz.simpl.SimpleJobFactory.newJob(SimpleJobFactory.java:51)] [DefaultQuartzScheduler_QuartzSchedulerThread] - Producing instance of Job 'group1.job1', class=cn.ac.iie.hy.areamonitor.test.SimpleJob
+2016-12-20 15:00:03,005 [DEBUG] [org.quartz.core.JobRunShell.run(JobRunShell.java:201)] [DefaultQuartzScheduler_Worker-10] - Calling execute on job group1.job1
+2016-12-20 15:00:03,006 [DEBUG] [org.quartz.core.QuartzSchedulerThread.run(QuartzSchedulerThread.java:276)] [DefaultQuartzScheduler_QuartzSchedulerThread] - batch acquisition of 1 triggers
+2016-12-20 15:00:04,001 [DEBUG] [org.quartz.simpl.SimpleJobFactory.newJob(SimpleJobFactory.java:51)] [DefaultQuartzScheduler_QuartzSchedulerThread] - Producing instance of Job 'group1.job1', class=cn.ac.iie.hy.areamonitor.test.SimpleJob
+2016-12-20 15:00:04,004 [DEBUG] [org.quartz.core.JobRunShell.run(JobRunShell.java:201)] [DefaultQuartzScheduler_Worker-1] - Calling execute on job group1.job1
+2016-12-20 15:00:04,005 [DEBUG] [org.quartz.core.QuartzSchedulerThread.run(QuartzSchedulerThread.java:276)] [DefaultQuartzScheduler_QuartzSchedulerThread] - batch acquisition of 1 triggers
+2016-12-20 15:00:05,000 [DEBUG] [org.quartz.simpl.SimpleJobFactory.newJob(SimpleJobFactory.java:51)] [DefaultQuartzScheduler_QuartzSchedulerThread] - Producing instance of Job 'group1.job1', class=cn.ac.iie.hy.areamonitor.test.SimpleJob
+2016-12-20 15:00:05,002 [DEBUG] [org.quartz.core.JobRunShell.run(JobRunShell.java:201)] [DefaultQuartzScheduler_Worker-2] - Calling execute on job group1.job1
+2016-12-20 15:00:05,003 [DEBUG] [org.quartz.core.QuartzSchedulerThread.run(QuartzSchedulerThread.java:276)] [DefaultQuartzScheduler_QuartzSchedulerThread] - batch acquisition of 1 triggers
+2016-12-20 15:00:06,001 [DEBUG] [org.quartz.simpl.SimpleJobFactory.newJob(SimpleJobFactory.java:51)] [DefaultQuartzScheduler_QuartzSchedulerThread] - Producing instance of Job 'group1.job1', class=cn.ac.iie.hy.areamonitor.test.SimpleJob
+2016-12-20 15:00:06,007 [DEBUG] [org.quartz.core.JobRunShell.run(JobRunShell.java:201)] [DefaultQuartzScheduler_Worker-3] - Calling execute on job group1.job1
+2016-12-20 15:00:06,008 [DEBUG] [org.quartz.core.QuartzSchedulerThread.run(QuartzSchedulerThread.java:276)] [DefaultQuartzScheduler_QuartzSchedulerThread] - batch acquisition of 1 triggers
+2016-12-20 15:00:07,001 [DEBUG] [org.quartz.simpl.SimpleJobFactory.newJob(SimpleJobFactory.java:51)] [DefaultQuartzScheduler_QuartzSchedulerThread] - Producing instance of Job 'group1.job1', class=cn.ac.iie.hy.areamonitor.test.SimpleJob
+2016-12-20 15:00:07,003 [DEBUG] [org.quartz.core.JobRunShell.run(JobRunShell.java:201)] [DefaultQuartzScheduler_Worker-4] - Calling execute on job group1.job1
+2016-12-20 15:00:07,004 [DEBUG] [org.quartz.core.QuartzSchedulerThread.run(QuartzSchedulerThread.java:276)] [DefaultQuartzScheduler_QuartzSchedulerThread] - batch acquisition of 1 triggers
+2016-12-20 15:00:08,001 [DEBUG] [org.quartz.simpl.SimpleJobFactory.newJob(SimpleJobFactory.java:51)] [DefaultQuartzScheduler_QuartzSchedulerThread] - Producing instance of Job 'group1.job1', class=cn.ac.iie.hy.areamonitor.test.SimpleJob
+2016-12-20 15:00:08,006 [DEBUG] [org.quartz.core.JobRunShell.run(JobRunShell.java:201)] [DefaultQuartzScheduler_Worker-5] - Calling execute on job group1.job1
+2016-12-20 15:00:08,006 [DEBUG] [org.quartz.core.QuartzSchedulerThread.run(QuartzSchedulerThread.java:276)] [DefaultQuartzScheduler_QuartzSchedulerThread] - batch acquisition of 1 triggers
+2016-12-20 15:00:09,001 [DEBUG] [org.quartz.simpl.SimpleJobFactory.newJob(SimpleJobFactory.java:51)] [DefaultQuartzScheduler_QuartzSchedulerThread] - Producing instance of Job 'group1.job1', class=cn.ac.iie.hy.areamonitor.test.SimpleJob
+2016-12-20 15:00:09,006 [DEBUG] [org.quartz.core.JobRunShell.run(JobRunShell.java:201)] [DefaultQuartzScheduler_Worker-6] - Calling execute on job group1.job1
+2016-12-20 15:00:09,007 [DEBUG] [org.quartz.core.QuartzSchedulerThread.run(QuartzSchedulerThread.java:276)] [DefaultQuartzScheduler_QuartzSchedulerThread] - batch acquisition of 1 triggers
+2016-12-20 15:00:10,002 [DEBUG] [org.quartz.simpl.SimpleJobFactory.newJob(SimpleJobFactory.java:51)] [DefaultQuartzScheduler_QuartzSchedulerThread] - Producing instance of Job 'group1.job1', class=cn.ac.iie.hy.areamonitor.test.SimpleJob
+2016-12-20 15:00:10,007 [DEBUG] [org.quartz.core.JobRunShell.run(JobRunShell.java:201)] [DefaultQuartzScheduler_Worker-7] - Calling execute on job group1.job1
+2016-12-20 15:00:10,008 [DEBUG] [org.quartz.core.QuartzSchedulerThread.run(QuartzSchedulerThread.java:276)] [DefaultQuartzScheduler_QuartzSchedulerThread] - batch acquisition of 1 triggers
+2016-12-20 15:00:11,000 [DEBUG] [org.quartz.simpl.SimpleJobFactory.newJob(SimpleJobFactory.java:51)] [DefaultQuartzScheduler_QuartzSchedulerThread] - Producing instance of Job 'group1.job1', class=cn.ac.iie.hy.areamonitor.test.SimpleJob
+2016-12-20 15:00:11,005 [DEBUG] [org.quartz.core.JobRunShell.run(JobRunShell.java:201)] [DefaultQuartzScheduler_Worker-8] - Calling execute on job group1.job1
+2016-12-20 15:00:11,006 [DEBUG] [org.quartz.core.QuartzSchedulerThread.run(QuartzSchedulerThread.java:276)] [DefaultQuartzScheduler_QuartzSchedulerThread] - batch acquisition of 1 triggers
+2016-12-20 15:00:12,002 [DEBUG] [org.quartz.simpl.SimpleJobFactory.newJob(SimpleJobFactory.java:51)] [DefaultQuartzScheduler_QuartzSchedulerThread] - Producing instance of Job 'group1.job1', class=cn.ac.iie.hy.areamonitor.test.SimpleJob
+2016-12-20 15:00:12,006 [DEBUG] [org.quartz.core.JobRunShell.run(JobRunShell.java:201)] [DefaultQuartzScheduler_Worker-9] - Calling execute on job group1.job1
+2016-12-20 15:00:12,007 [DEBUG] [org.quartz.core.QuartzSchedulerThread.run(QuartzSchedulerThread.java:276)] [DefaultQuartzScheduler_QuartzSchedulerThread] - batch acquisition of 1 triggers
+2016-12-20 15:00:13,001 [DEBUG] [org.quartz.simpl.SimpleJobFactory.newJob(SimpleJobFactory.java:51)] [DefaultQuartzScheduler_QuartzSchedulerThread] - Producing instance of Job 'group1.job1', class=cn.ac.iie.hy.areamonitor.test.SimpleJob
+2016-12-20 15:00:13,005 [DEBUG] [org.quartz.core.JobRunShell.run(JobRunShell.java:201)] [DefaultQuartzScheduler_Worker-10] - Calling execute on job group1.job1
+2016-12-20 15:00:13,006 [DEBUG] [org.quartz.core.QuartzSchedulerThread.run(QuartzSchedulerThread.java:276)] [DefaultQuartzScheduler_QuartzSchedulerThread] - batch acquisition of 1 triggers
+2016-12-20 15:00:14,000 [DEBUG] [org.quartz.simpl.SimpleJobFactory.newJob(SimpleJobFactory.java:51)] [DefaultQuartzScheduler_QuartzSchedulerThread] - Producing instance of Job 'group1.job1', class=cn.ac.iie.hy.areamonitor.test.SimpleJob
+2016-12-20 15:00:14,005 [DEBUG] [org.quartz.core.JobRunShell.run(JobRunShell.java:201)] [DefaultQuartzScheduler_Worker-1] - Calling execute on job group1.job1
+2016-12-20 15:00:14,005 [DEBUG] [org.quartz.core.QuartzSchedulerThread.run(QuartzSchedulerThread.java:276)] [DefaultQuartzScheduler_QuartzSchedulerThread] - batch acquisition of 1 triggers
+2016-12-20 15:00:32,681 [INFO] [org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1172)] [main] - Using default implementation for ThreadExecutor
+2016-12-20 15:00:32,687 [INFO] [org.quartz.simpl.SimpleThreadPool.initialize(SimpleThreadPool.java:268)] [main] - Job execution threads will use class loader of thread: main
+2016-12-20 15:00:32,712 [INFO] [org.quartz.core.SchedulerSignalerImpl.<init>(SchedulerSignalerImpl.java:61)] [main] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2016-12-20 15:00:32,712 [INFO] [org.quartz.core.QuartzScheduler.<init>(QuartzScheduler.java:240)] [main] - Quartz Scheduler v.2.2.3 created.
+2016-12-20 15:00:32,713 [INFO] [org.quartz.simpl.RAMJobStore.initialize(RAMJobStore.java:155)] [main] - RAMJobStore initialized.
+2016-12-20 15:00:32,714 [INFO] [org.quartz.core.QuartzScheduler.initialize(QuartzScheduler.java:305)] [main] - Scheduler meta-data: Quartz Scheduler (v2.2.3) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-12-20 15:00:32,714 [INFO] [org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1327)] [main] - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2016-12-20 15:00:32,715 [INFO] [org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1331)] [main] - Quartz scheduler version: 2.2.3
+2016-12-20 15:00:32,725 [INFO] [org.quartz.core.QuartzScheduler.start(QuartzScheduler.java:575)] [main] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-12-20 15:00:32,726 [DEBUG] [org.quartz.core.QuartzSchedulerThread.run(QuartzSchedulerThread.java:276)] [DefaultQuartzScheduler_QuartzSchedulerThread] - batch acquisition of 1 triggers
+2016-12-20 15:00:35,009 [DEBUG] [org.quartz.simpl.SimpleJobFactory.newJob(SimpleJobFactory.java:51)] [DefaultQuartzScheduler_QuartzSchedulerThread] - Producing instance of Job 'group1.job1', class=cn.ac.iie.hy.areamonitor.test.SimpleJob
+2016-12-20 15:00:35,038 [DEBUG] [org.quartz.core.QuartzSchedulerThread.run(QuartzSchedulerThread.java:276)] [DefaultQuartzScheduler_QuartzSchedulerThread] - batch acquisition of 1 triggers
+2016-12-20 15:00:35,039 [DEBUG] [org.quartz.core.JobRunShell.run(JobRunShell.java:201)] [DefaultQuartzScheduler_Worker-1] - Calling execute on job group1.job1
+2016-12-20 15:00:40,001 [DEBUG] [org.quartz.simpl.SimpleJobFactory.newJob(SimpleJobFactory.java:51)] [DefaultQuartzScheduler_QuartzSchedulerThread] - Producing instance of Job 'group1.job1', class=cn.ac.iie.hy.areamonitor.test.SimpleJob
+2016-12-20 15:00:40,008 [DEBUG] [org.quartz.core.JobRunShell.run(JobRunShell.java:201)] [DefaultQuartzScheduler_Worker-2] - Calling execute on job group1.job1
+2016-12-20 15:00:40,009 [DEBUG] [org.quartz.core.QuartzSchedulerThread.run(QuartzSchedulerThread.java:276)] [DefaultQuartzScheduler_QuartzSchedulerThread] - batch acquisition of 1 triggers
+2016-12-20 15:01:05,576 [INFO] [org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1172)] [main] - Using default implementation for ThreadExecutor
+2016-12-20 15:01:05,582 [INFO] [org.quartz.simpl.SimpleThreadPool.initialize(SimpleThreadPool.java:268)] [main] - Job execution threads will use class loader of thread: main
+2016-12-20 15:01:05,607 [INFO] [org.quartz.core.SchedulerSignalerImpl.<init>(SchedulerSignalerImpl.java:61)] [main] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2016-12-20 15:01:05,608 [INFO] [org.quartz.core.QuartzScheduler.<init>(QuartzScheduler.java:240)] [main] - Quartz Scheduler v.2.2.3 created.
+2016-12-20 15:01:05,610 [INFO] [org.quartz.simpl.RAMJobStore.initialize(RAMJobStore.java:155)] [main] - RAMJobStore initialized.
+2016-12-20 15:01:05,611 [INFO] [org.quartz.core.QuartzScheduler.initialize(QuartzScheduler.java:305)] [main] - Scheduler meta-data: Quartz Scheduler (v2.2.3) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-12-20 15:01:05,611 [INFO] [org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1327)] [main] - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2016-12-20 15:01:05,611 [INFO] [org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1331)] [main] - Quartz scheduler version: 2.2.3
+2016-12-20 15:01:05,626 [INFO] [org.quartz.core.QuartzScheduler.start(QuartzScheduler.java:575)] [main] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.

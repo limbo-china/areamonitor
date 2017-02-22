@@ -1,0 +1,27 @@
+2016-12-21 15:19:56,381 [INFO] [cn.ac.iie.hy.areamonitor.server.AreaMonitorServer.init(AreaMonitorServer.java:79)] [main] - initializing system...
+2016-12-21 15:19:56,383 [INFO] [cn.ac.iie.hy.areamonitor.server.AreaMonitorServer.init(AreaMonitorServer.java:80)] [main] - getting configuration from configuration file sysconfig.properties
+2016-12-21 15:19:56,443 [INFO] [org.eclipse.jetty.util.log.Log.initialized(Log.java:192)] [main] - Logging initialized @283ms
+2016-12-21 15:19:56,488 [INFO] [cn.ac.iie.hy.areamonitor.server.AreaMonitorServer.init(AreaMonitorServer.java:107)] [main] - intialize system successfully
+2016-12-21 15:19:56,489 [INFO] [cn.ac.iie.hy.areamonitor.server.AreaMonitorServer.init(AreaMonitorServer.java:108)] [main] - config host is http://127.0.0.1:9527/sysconfig
+2016-12-21 15:19:56,495 [INFO] [cn.ac.iie.hy.areamonitor.server.AreaMonitorServer.startup(AreaMonitorServer.java:71)] [main] - starting system...
+2016-12-21 15:19:56,496 [INFO] [org.eclipse.jetty.server.Server.doStart(Server.java:345)] [main] - jetty-9.3.11.v20160721
+2016-12-21 15:19:56,536 [INFO] [org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1172)] [pool-2-thread-1] - Using default implementation for ThreadExecutor
+2016-12-21 15:19:56,539 [INFO] [org.quartz.simpl.SimpleThreadPool.initialize(SimpleThreadPool.java:268)] [pool-2-thread-1] - Job execution threads will use class loader of thread: pool-2-thread-1
+2016-12-21 15:19:56,558 [INFO] [org.quartz.core.SchedulerSignalerImpl.<init>(SchedulerSignalerImpl.java:61)] [pool-2-thread-1] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2016-12-21 15:19:56,559 [INFO] [org.quartz.core.QuartzScheduler.<init>(QuartzScheduler.java:240)] [pool-2-thread-1] - Quartz Scheduler v.2.2.3 created.
+2016-12-21 15:19:56,561 [INFO] [org.quartz.simpl.RAMJobStore.initialize(RAMJobStore.java:155)] [pool-2-thread-1] - RAMJobStore initialized.
+2016-12-21 15:19:56,562 [INFO] [org.quartz.core.QuartzScheduler.initialize(QuartzScheduler.java:305)] [pool-2-thread-1] - Scheduler meta-data: Quartz Scheduler (v2.2.3) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-12-21 15:19:56,562 [INFO] [org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1327)] [pool-2-thread-1] - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2016-12-21 15:19:56,562 [INFO] [org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1331)] [pool-2-thread-1] - Quartz scheduler version: 2.2.3
+2016-12-21 15:19:56,574 [INFO] [org.quartz.core.QuartzScheduler.start(QuartzScheduler.java:575)] [pool-2-thread-1] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-12-21 15:19:56,582 [INFO] [org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:781)] [main] - Started o.e.j.s.h.ContextHandler@29444d75{/sysconfig,null,AVAILABLE}
+2016-12-21 15:19:56,723 [INFO] [org.eclipse.jetty.server.AbstractConnector.doStart(AbstractConnector.java:270)] [main] - Started ServerConnector@7e0ea639{HTTP/1.1,[http/1.1]}{0.0.0.0:9527}
+2016-12-21 15:19:56,723 [INFO] [org.eclipse.jetty.server.Server.doStart(Server.java:403)] [main] - Started @567ms
+2016-12-21 15:19:56,724 [INFO] [cn.ac.iie.hy.areamonitor.server.AreaMonitorServer.startup(AreaMonitorServer.java:73)] [main] - start system successfully

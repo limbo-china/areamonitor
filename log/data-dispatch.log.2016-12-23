@@ -1,0 +1,739 @@
+2016-12-23 09:38:49,518 [INFO] [cn.ac.iie.hy.areamonitor.server.AreaMonitorServer.init(AreaMonitorServer.java:79)] [main] - initializing system...
+2016-12-23 09:38:49,534 [INFO] [cn.ac.iie.hy.areamonitor.server.AreaMonitorServer.init(AreaMonitorServer.java:80)] [main] - getting configuration from configuration file sysconfig.properties
+2016-12-23 09:38:49,587 [INFO] [org.eclipse.jetty.util.log.Log.initialized(Log.java:192)] [main] - Logging initialized @342ms
+2016-12-23 09:38:49,687 [INFO] [cn.ac.iie.hy.areamonitor.server.AreaMonitorServer.init(AreaMonitorServer.java:107)] [main] - intialize system successfully
+2016-12-23 09:38:49,687 [INFO] [cn.ac.iie.hy.areamonitor.server.AreaMonitorServer.init(AreaMonitorServer.java:108)] [main] - config host is http://127.0.0.1:9527/sysconfig
+2016-12-23 09:38:49,750 [INFO] [cn.ac.iie.hy.areamonitor.server.AreaMonitorServer.startup(AreaMonitorServer.java:71)] [main] - starting system...
+2016-12-23 09:38:49,750 [INFO] [org.eclipse.jetty.server.Server.doStart(Server.java:345)] [main] - jetty-9.3.11.v20160721
+2016-12-23 09:38:49,888 [INFO] [org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1172)] [pool-2-thread-1] - Using default implementation for ThreadExecutor
+2016-12-23 09:38:49,888 [INFO] [org.quartz.simpl.SimpleThreadPool.initialize(SimpleThreadPool.java:268)] [pool-2-thread-1] - Job execution threads will use class loader of thread: pool-2-thread-1
+2016-12-23 09:38:49,903 [INFO] [org.quartz.core.SchedulerSignalerImpl.<init>(SchedulerSignalerImpl.java:61)] [pool-2-thread-1] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2016-12-23 09:38:49,903 [INFO] [org.quartz.core.QuartzScheduler.<init>(QuartzScheduler.java:240)] [pool-2-thread-1] - Quartz Scheduler v.2.2.3 created.
+2016-12-23 09:38:49,903 [INFO] [org.quartz.simpl.RAMJobStore.initialize(RAMJobStore.java:155)] [pool-2-thread-1] - RAMJobStore initialized.
+2016-12-23 09:38:49,903 [INFO] [org.quartz.core.QuartzScheduler.initialize(QuartzScheduler.java:305)] [pool-2-thread-1] - Scheduler meta-data: Quartz Scheduler (v2.2.3) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-12-23 09:38:49,903 [INFO] [org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1327)] [pool-2-thread-1] - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2016-12-23 09:38:49,903 [INFO] [org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1331)] [pool-2-thread-1] - Quartz scheduler version: 2.2.3
+2016-12-23 09:38:49,935 [INFO] [org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:781)] [main] - Started o.e.j.s.h.ContextHandler@29444d75{/sysconfig,null,AVAILABLE}
+2016-12-23 09:38:49,935 [INFO] [org.quartz.core.QuartzScheduler.start(QuartzScheduler.java:575)] [pool-2-thread-1] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-12-23 09:38:50,119 [INFO] [org.eclipse.jetty.server.AbstractConnector.doStart(AbstractConnector.java:270)] [main] - Started ServerConnector@7e0ea639{HTTP/1.1,[http/1.1]}{0.0.0.0:9527}
+2016-12-23 09:38:50,119 [INFO] [org.eclipse.jetty.server.Server.doStart(Server.java:403)] [main] - Started @881ms
+2016-12-23 09:38:50,119 [INFO] [cn.ac.iie.hy.areamonitor.server.AreaMonitorServer.startup(AreaMonitorServer.java:73)] [main] - start system successfully
+2016-12-23 09:40:54,054 [INFO] [cn.ac.iie.hy.areamonitor.server.AreaMonitorServer.init(AreaMonitorServer.java:79)] [main] - initializing system...
+2016-12-23 09:40:54,069 [INFO] [cn.ac.iie.hy.areamonitor.server.AreaMonitorServer.init(AreaMonitorServer.java:80)] [main] - getting configuration from configuration file sysconfig.properties
+2016-12-23 09:40:54,107 [INFO] [org.eclipse.jetty.util.log.Log.initialized(Log.java:192)] [main] - Logging initialized @256ms
+2016-12-23 09:40:54,154 [INFO] [cn.ac.iie.hy.areamonitor.server.AreaMonitorServer.init(AreaMonitorServer.java:107)] [main] - intialize system successfully
+2016-12-23 09:40:54,154 [INFO] [cn.ac.iie.hy.areamonitor.server.AreaMonitorServer.init(AreaMonitorServer.java:108)] [main] - config host is http://127.0.0.1:9527/sysconfig
+2016-12-23 09:40:54,154 [INFO] [cn.ac.iie.hy.areamonitor.server.AreaMonitorServer.startup(AreaMonitorServer.java:71)] [main] - starting system...
+2016-12-23 09:40:54,170 [INFO] [org.eclipse.jetty.server.Server.doStart(Server.java:345)] [main] - jetty-9.3.11.v20160721
+2016-12-23 09:40:54,207 [INFO] [org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1172)] [pool-2-thread-1] - Using default implementation for ThreadExecutor
+2016-12-23 09:40:54,207 [INFO] [org.quartz.simpl.SimpleThreadPool.initialize(SimpleThreadPool.java:268)] [pool-2-thread-1] - Job execution threads will use class loader of thread: pool-2-thread-1
+2016-12-23 09:40:54,223 [INFO] [org.quartz.core.SchedulerSignalerImpl.<init>(SchedulerSignalerImpl.java:61)] [pool-2-thread-1] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2016-12-23 09:40:54,223 [INFO] [org.quartz.core.QuartzScheduler.<init>(QuartzScheduler.java:240)] [pool-2-thread-1] - Quartz Scheduler v.2.2.3 created.
+2016-12-23 09:40:54,223 [INFO] [org.quartz.simpl.RAMJobStore.initialize(RAMJobStore.java:155)] [pool-2-thread-1] - RAMJobStore initialized.
+2016-12-23 09:40:54,223 [INFO] [org.quartz.core.QuartzScheduler.initialize(QuartzScheduler.java:305)] [pool-2-thread-1] - Scheduler meta-data: Quartz Scheduler (v2.2.3) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-12-23 09:40:54,223 [INFO] [org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1327)] [pool-2-thread-1] - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2016-12-23 09:40:54,223 [INFO] [org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1331)] [pool-2-thread-1] - Quartz scheduler version: 2.2.3
+2016-12-23 09:40:54,239 [INFO] [org.quartz.core.QuartzScheduler.start(QuartzScheduler.java:575)] [pool-2-thread-1] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-12-23 09:40:54,254 [INFO] [org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:781)] [main] - Started o.e.j.s.h.ContextHandler@29444d75{/sysconfig,null,AVAILABLE}
+2016-12-23 09:40:54,392 [INFO] [org.eclipse.jetty.server.AbstractConnector.doStart(AbstractConnector.java:270)] [main] - Started ServerConnector@27ebd5fc{HTTP/1.1,[http/1.1]}{0.0.0.0:9527}
+2016-12-23 09:40:54,392 [INFO] [org.eclipse.jetty.server.Server.doStart(Server.java:403)] [main] - Started @552ms
+2016-12-23 09:40:54,392 [INFO] [cn.ac.iie.hy.areamonitor.server.AreaMonitorServer.startup(AreaMonitorServer.java:73)] [main] - start system successfully
+2016-12-23 09:41:22,064 [INFO] [cn.ac.iie.hy.areamonitor.server.AreaMonitorServer.init(AreaMonitorServer.java:79)] [main] - initializing system...
+2016-12-23 09:41:22,064 [INFO] [cn.ac.iie.hy.areamonitor.server.AreaMonitorServer.init(AreaMonitorServer.java:80)] [main] - getting configuration from configuration file sysconfig.properties
+2016-12-23 09:41:22,118 [INFO] [org.eclipse.jetty.util.log.Log.initialized(Log.java:192)] [main] - Logging initialized @264ms
+2016-12-23 09:41:22,165 [INFO] [cn.ac.iie.hy.areamonitor.server.AreaMonitorServer.init(AreaMonitorServer.java:107)] [main] - intialize system successfully
+2016-12-23 09:41:22,165 [INFO] [cn.ac.iie.hy.areamonitor.server.AreaMonitorServer.init(AreaMonitorServer.java:108)] [main] - config host is http://127.0.0.1:9527/sysconfig
+2016-12-23 09:41:22,165 [INFO] [cn.ac.iie.hy.areamonitor.server.AreaMonitorServer.startup(AreaMonitorServer.java:71)] [main] - starting system...
+2016-12-23 09:41:22,165 [INFO] [org.eclipse.jetty.server.Server.doStart(Server.java:345)] [main] - jetty-9.3.11.v20160721
+2016-12-23 09:41:22,202 [INFO] [org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1172)] [pool-2-thread-1] - Using default implementation for ThreadExecutor
+2016-12-23 09:41:22,202 [INFO] [org.quartz.simpl.SimpleThreadPool.initialize(SimpleThreadPool.java:268)] [pool-2-thread-1] - Job execution threads will use class loader of thread: pool-2-thread-1
+2016-12-23 09:41:22,234 [INFO] [org.quartz.core.SchedulerSignalerImpl.<init>(SchedulerSignalerImpl.java:61)] [pool-2-thread-1] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2016-12-23 09:41:22,234 [INFO] [org.quartz.core.QuartzScheduler.<init>(QuartzScheduler.java:240)] [pool-2-thread-1] - Quartz Scheduler v.2.2.3 created.
+2016-12-23 09:41:22,234 [INFO] [org.quartz.simpl.RAMJobStore.initialize(RAMJobStore.java:155)] [pool-2-thread-1] - RAMJobStore initialized.
+2016-12-23 09:41:22,234 [INFO] [org.quartz.core.QuartzScheduler.initialize(QuartzScheduler.java:305)] [pool-2-thread-1] - Scheduler meta-data: Quartz Scheduler (v2.2.3) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-12-23 09:41:22,234 [INFO] [org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1327)] [pool-2-thread-1] - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2016-12-23 09:41:22,234 [INFO] [org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1331)] [pool-2-thread-1] - Quartz scheduler version: 2.2.3
+2016-12-23 09:41:22,249 [INFO] [org.quartz.core.QuartzScheduler.start(QuartzScheduler.java:575)] [pool-2-thread-1] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-12-23 09:41:22,249 [INFO] [org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:781)] [main] - Started o.e.j.s.h.ContextHandler@29444d75{/sysconfig,null,AVAILABLE}
+2016-12-23 09:41:22,387 [INFO] [org.eclipse.jetty.server.AbstractConnector.doStart(AbstractConnector.java:270)] [main] - Started ServerConnector@72d285ac{HTTP/1.1,[http/1.1]}{0.0.0.0:9527}
+2016-12-23 09:41:22,387 [INFO] [org.eclipse.jetty.server.Server.doStart(Server.java:403)] [main] - Started @538ms
+2016-12-23 09:41:22,387 [INFO] [cn.ac.iie.hy.areamonitor.server.AreaMonitorServer.startup(AreaMonitorServer.java:73)] [main] - start system successfully
+2016-12-23 09:42:34,299 [INFO] [cn.ac.iie.hy.areamonitor.server.AreaMonitorServer.init(AreaMonitorServer.java:80)] [main] - initializing system...
+2016-12-23 09:42:34,299 [INFO] [cn.ac.iie.hy.areamonitor.server.AreaMonitorServer.init(AreaMonitorServer.java:81)] [main] - getting configuration from configuration file sysconfig.properties
+2016-12-23 09:42:34,345 [INFO] [org.eclipse.jetty.util.log.Log.initialized(Log.java:192)] [main] - Logging initialized @250ms
+2016-12-23 09:42:34,383 [INFO] [cn.ac.iie.hy.areamonitor.server.AreaMonitorServer.init(AreaMonitorServer.java:108)] [main] - intialize system successfully
+2016-12-23 09:42:34,383 [INFO] [cn.ac.iie.hy.areamonitor.server.AreaMonitorServer.init(AreaMonitorServer.java:109)] [main] - config host is http://127.0.0.1:9527/sysconfig
+2016-12-23 09:42:34,483 [INFO] [cn.ac.iie.hy.areamonitor.server.AreaMonitorServer.startup(AreaMonitorServer.java:72)] [main] - starting system...
+2016-12-23 09:42:34,483 [INFO] [org.eclipse.jetty.server.Server.doStart(Server.java:345)] [main] - jetty-9.3.11.v20160721
+2016-12-23 09:42:34,530 [INFO] [org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1172)] [pool-2-thread-2] - Using default implementation for ThreadExecutor
+2016-12-23 09:42:34,546 [INFO] [org.quartz.simpl.SimpleThreadPool.initialize(SimpleThreadPool.java:268)] [pool-2-thread-2] - Job execution threads will use class loader of thread: pool-2-thread-2
+2016-12-23 09:42:34,568 [INFO] [org.quartz.core.SchedulerSignalerImpl.<init>(SchedulerSignalerImpl.java:61)] [pool-2-thread-2] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2016-12-23 09:42:34,568 [INFO] [org.quartz.core.QuartzScheduler.<init>(QuartzScheduler.java:240)] [pool-2-thread-2] - Quartz Scheduler v.2.2.3 created.
+2016-12-23 09:42:34,568 [INFO] [org.quartz.simpl.RAMJobStore.initialize(RAMJobStore.java:155)] [pool-2-thread-2] - RAMJobStore initialized.
+2016-12-23 09:42:34,568 [INFO] [org.quartz.core.QuartzScheduler.initialize(QuartzScheduler.java:305)] [pool-2-thread-2] - Scheduler meta-data: Quartz Scheduler (v2.2.3) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-12-23 09:42:34,568 [INFO] [org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1327)] [pool-2-thread-2] - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2016-12-23 09:42:34,568 [INFO] [org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1331)] [pool-2-thread-2] - Quartz scheduler version: 2.2.3
+2016-12-23 09:42:34,584 [INFO] [org.quartz.core.QuartzScheduler.start(QuartzScheduler.java:575)] [pool-2-thread-2] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-12-23 09:42:34,599 [INFO] [org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:781)] [main] - Started o.e.j.s.h.ContextHandler@39ba5a14{/sysconfig,null,AVAILABLE}
+2016-12-23 09:42:34,784 [INFO] [org.eclipse.jetty.server.AbstractConnector.doStart(AbstractConnector.java:270)] [main] - Started ServerConnector@4520ebad{HTTP/1.1,[http/1.1]}{0.0.0.0:9527}
+2016-12-23 09:42:34,784 [INFO] [org.eclipse.jetty.server.Server.doStart(Server.java:403)] [main] - Started @701ms
+2016-12-23 09:42:34,784 [INFO] [cn.ac.iie.hy.areamonitor.server.AreaMonitorServer.startup(AreaMonitorServer.java:74)] [main] - start system successfully
+2016-12-23 09:43:12,548 [INFO] [cn.ac.iie.hy.areamonitor.server.AreaMonitorServer.init(AreaMonitorServer.java:80)] [main] - initializing system...
+2016-12-23 09:43:12,550 [INFO] [cn.ac.iie.hy.areamonitor.server.AreaMonitorServer.init(AreaMonitorServer.java:81)] [main] - getting configuration from configuration file sysconfig.properties
+2016-12-23 09:43:12,584 [INFO] [org.eclipse.jetty.util.log.Log.initialized(Log.java:192)] [main] - Logging initialized @242ms
+2016-12-23 09:43:12,631 [INFO] [cn.ac.iie.hy.areamonitor.server.AreaMonitorServer.init(AreaMonitorServer.java:108)] [main] - intialize system successfully
+2016-12-23 09:43:12,631 [INFO] [cn.ac.iie.hy.areamonitor.server.AreaMonitorServer.init(AreaMonitorServer.java:109)] [main] - config host is http://127.0.0.1:9527/sysconfig
+2016-12-23 09:43:12,684 [INFO] [cn.ac.iie.hy.areamonitor.server.AreaMonitorServer.startup(AreaMonitorServer.java:72)] [main] - starting system...
+2016-12-23 09:43:12,684 [INFO] [org.eclipse.jetty.server.Server.doStart(Server.java:345)] [main] - jetty-9.3.11.v20160721
+2016-12-23 09:43:12,716 [INFO] [org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1172)] [pool-2-thread-2] - Using default implementation for ThreadExecutor
+2016-12-23 09:43:12,731 [INFO] [org.quartz.simpl.SimpleThreadPool.initialize(SimpleThreadPool.java:268)] [pool-2-thread-2] - Job execution threads will use class loader of thread: pool-2-thread-2
+2016-12-23 09:43:12,747 [INFO] [org.quartz.core.SchedulerSignalerImpl.<init>(SchedulerSignalerImpl.java:61)] [pool-2-thread-2] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2016-12-23 09:43:12,747 [INFO] [org.quartz.core.QuartzScheduler.<init>(QuartzScheduler.java:240)] [pool-2-thread-2] - Quartz Scheduler v.2.2.3 created.
+2016-12-23 09:43:12,747 [INFO] [org.quartz.simpl.RAMJobStore.initialize(RAMJobStore.java:155)] [pool-2-thread-2] - RAMJobStore initialized.
+2016-12-23 09:43:12,747 [INFO] [org.quartz.core.QuartzScheduler.initialize(QuartzScheduler.java:305)] [pool-2-thread-2] - Scheduler meta-data: Quartz Scheduler (v2.2.3) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-12-23 09:43:12,747 [INFO] [org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1327)] [pool-2-thread-2] - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2016-12-23 09:43:12,747 [INFO] [org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1331)] [pool-2-thread-2] - Quartz scheduler version: 2.2.3
+2016-12-23 09:43:12,747 [INFO] [org.quartz.core.QuartzScheduler.start(QuartzScheduler.java:575)] [pool-2-thread-2] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-12-23 09:43:12,781 [INFO] [org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:781)] [main] - Started o.e.j.s.h.ContextHandler@39ba5a14{/sysconfig,null,AVAILABLE}
+2016-12-23 09:43:12,947 [INFO] [org.eclipse.jetty.server.AbstractConnector.doStart(AbstractConnector.java:270)] [main] - Started ServerConnector@5419f379{HTTP/1.1,[http/1.1]}{0.0.0.0:9527}
+2016-12-23 09:43:12,947 [INFO] [org.eclipse.jetty.server.Server.doStart(Server.java:403)] [main] - Started @603ms
+2016-12-23 09:43:12,947 [INFO] [cn.ac.iie.hy.areamonitor.server.AreaMonitorServer.startup(AreaMonitorServer.java:74)] [main] - start system successfully
+2016-12-23 09:44:58,681 [INFO] [cn.ac.iie.hy.areamonitor.server.AreaMonitorServer.init(AreaMonitorServer.java:80)] [main] - initializing system...
+2016-12-23 09:44:58,683 [INFO] [cn.ac.iie.hy.areamonitor.server.AreaMonitorServer.init(AreaMonitorServer.java:81)] [main] - getting configuration from configuration file sysconfig.properties
+2016-12-23 09:44:58,714 [INFO] [org.eclipse.jetty.util.log.Log.initialized(Log.java:192)] [main] - Logging initialized @241ms
+2016-12-23 09:44:58,777 [INFO] [cn.ac.iie.hy.areamonitor.server.AreaMonitorServer.init(AreaMonitorServer.java:108)] [main] - intialize system successfully
+2016-12-23 09:44:58,778 [INFO] [cn.ac.iie.hy.areamonitor.server.AreaMonitorServer.init(AreaMonitorServer.java:109)] [main] - config host is http://127.0.0.1:9527/sysconfig
+2016-12-23 09:44:58,814 [INFO] [cn.ac.iie.hy.areamonitor.server.AreaMonitorServer.startup(AreaMonitorServer.java:72)] [main] - starting system...
+2016-12-23 09:44:58,814 [INFO] [org.eclipse.jetty.server.Server.doStart(Server.java:345)] [main] - jetty-9.3.11.v20160721
+2016-12-23 09:44:58,846 [INFO] [org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1172)] [pool-2-thread-2] - Using default implementation for ThreadExecutor
+2016-12-23 09:44:58,861 [INFO] [org.quartz.simpl.SimpleThreadPool.initialize(SimpleThreadPool.java:268)] [pool-2-thread-2] - Job execution threads will use class loader of thread: pool-2-thread-2
+2016-12-23 09:44:58,881 [INFO] [org.quartz.core.SchedulerSignalerImpl.<init>(SchedulerSignalerImpl.java:61)] [pool-2-thread-2] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2016-12-23 09:44:58,882 [INFO] [org.quartz.core.QuartzScheduler.<init>(QuartzScheduler.java:240)] [pool-2-thread-2] - Quartz Scheduler v.2.2.3 created.
+2016-12-23 09:44:58,883 [INFO] [org.quartz.simpl.RAMJobStore.initialize(RAMJobStore.java:155)] [pool-2-thread-2] - RAMJobStore initialized.
+2016-12-23 09:44:58,883 [INFO] [org.quartz.core.QuartzScheduler.initialize(QuartzScheduler.java:305)] [pool-2-thread-2] - Scheduler meta-data: Quartz Scheduler (v2.2.3) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-12-23 09:44:58,883 [INFO] [org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1327)] [pool-2-thread-2] - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2016-12-23 09:44:58,883 [INFO] [org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1331)] [pool-2-thread-2] - Quartz scheduler version: 2.2.3
+2016-12-23 09:44:58,883 [INFO] [org.quartz.core.QuartzScheduler.start(QuartzScheduler.java:575)] [pool-2-thread-2] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-12-23 09:44:58,915 [INFO] [org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:781)] [main] - Started o.e.j.s.h.ContextHandler@39ba5a14{/sysconfig,null,AVAILABLE}
+2016-12-23 09:44:59,083 [INFO] [org.eclipse.jetty.server.AbstractConnector.doStart(AbstractConnector.java:270)] [main] - Started ServerConnector@5419f379{HTTP/1.1,[http/1.1]}{0.0.0.0:9527}
+2016-12-23 09:44:59,083 [INFO] [org.eclipse.jetty.server.Server.doStart(Server.java:403)] [main] - Started @602ms
+2016-12-23 09:44:59,083 [INFO] [cn.ac.iie.hy.areamonitor.server.AreaMonitorServer.startup(AreaMonitorServer.java:74)] [main] - start system successfully
+2016-12-23 09:45:39,484 [INFO] [cn.ac.iie.hy.areamonitor.server.AreaMonitorServer.init(AreaMonitorServer.java:80)] [main] - initializing system...
+2016-12-23 09:45:39,484 [INFO] [cn.ac.iie.hy.areamonitor.server.AreaMonitorServer.init(AreaMonitorServer.java:81)] [main] - getting configuration from configuration file sysconfig.properties
+2016-12-23 09:45:39,522 [INFO] [org.eclipse.jetty.util.log.Log.initialized(Log.java:192)] [main] - Logging initialized @273ms
+2016-12-23 09:45:39,569 [INFO] [cn.ac.iie.hy.areamonitor.server.AreaMonitorServer.init(AreaMonitorServer.java:108)] [main] - intialize system successfully
+2016-12-23 09:45:39,569 [INFO] [cn.ac.iie.hy.areamonitor.server.AreaMonitorServer.init(AreaMonitorServer.java:109)] [main] - config host is http://127.0.0.1:9527/sysconfig
+2016-12-23 09:45:39,623 [INFO] [cn.ac.iie.hy.areamonitor.server.AreaMonitorServer.startup(AreaMonitorServer.java:72)] [main] - starting system...
+2016-12-23 09:45:39,623 [INFO] [org.eclipse.jetty.server.Server.doStart(Server.java:345)] [main] - jetty-9.3.11.v20160721
+2016-12-23 09:45:39,654 [INFO] [org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1172)] [pool-2-thread-2] - Using default implementation for ThreadExecutor
+2016-12-23 09:45:39,669 [INFO] [org.quartz.simpl.SimpleThreadPool.initialize(SimpleThreadPool.java:268)] [pool-2-thread-2] - Job execution threads will use class loader of thread: pool-2-thread-2
+2016-12-23 09:45:39,685 [INFO] [org.quartz.core.SchedulerSignalerImpl.<init>(SchedulerSignalerImpl.java:61)] [pool-2-thread-2] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2016-12-23 09:45:39,685 [INFO] [org.quartz.core.QuartzScheduler.<init>(QuartzScheduler.java:240)] [pool-2-thread-2] - Quartz Scheduler v.2.2.3 created.
+2016-12-23 09:45:39,685 [INFO] [org.quartz.simpl.RAMJobStore.initialize(RAMJobStore.java:155)] [pool-2-thread-2] - RAMJobStore initialized.
+2016-12-23 09:45:39,685 [INFO] [org.quartz.core.QuartzScheduler.initialize(QuartzScheduler.java:305)] [pool-2-thread-2] - Scheduler meta-data: Quartz Scheduler (v2.2.3) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-12-23 09:45:39,685 [INFO] [org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1327)] [pool-2-thread-2] - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2016-12-23 09:45:39,685 [INFO] [org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1331)] [pool-2-thread-2] - Quartz scheduler version: 2.2.3
+2016-12-23 09:45:39,707 [INFO] [org.quartz.core.QuartzScheduler.start(QuartzScheduler.java:575)] [pool-2-thread-2] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-12-23 09:45:39,723 [INFO] [org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:781)] [main] - Started o.e.j.s.h.ContextHandler@39ba5a14{/sysconfig,null,AVAILABLE}
+2016-12-23 09:45:39,901 [INFO] [org.eclipse.jetty.server.AbstractConnector.doStart(AbstractConnector.java:270)] [main] - Started ServerConnector@5419f379{HTTP/1.1,[http/1.1]}{0.0.0.0:9527}
+2016-12-23 09:45:39,901 [INFO] [org.eclipse.jetty.server.Server.doStart(Server.java:403)] [main] - Started @642ms
+2016-12-23 09:45:39,901 [INFO] [cn.ac.iie.hy.areamonitor.server.AreaMonitorServer.startup(AreaMonitorServer.java:74)] [main] - start system successfully
+2016-12-23 09:48:03,841 [INFO] [cn.ac.iie.hy.areamonitor.server.AreaMonitorServer.init(AreaMonitorServer.java:80)] [main] - initializing system...
+2016-12-23 09:48:03,841 [INFO] [cn.ac.iie.hy.areamonitor.server.AreaMonitorServer.init(AreaMonitorServer.java:81)] [main] - getting configuration from configuration file sysconfig.properties
+2016-12-23 09:48:03,889 [INFO] [org.eclipse.jetty.util.log.Log.initialized(Log.java:192)] [main] - Logging initialized @260ms
+2016-12-23 09:48:03,926 [INFO] [cn.ac.iie.hy.areamonitor.server.AreaMonitorServer.init(AreaMonitorServer.java:108)] [main] - intialize system successfully
+2016-12-23 09:48:03,926 [INFO] [cn.ac.iie.hy.areamonitor.server.AreaMonitorServer.init(AreaMonitorServer.java:109)] [main] - config host is http://127.0.0.1:9527/sysconfig
+2016-12-23 09:48:03,973 [INFO] [cn.ac.iie.hy.areamonitor.server.AreaMonitorServer.startup(AreaMonitorServer.java:72)] [main] - starting system...
+2016-12-23 09:48:03,973 [INFO] [org.eclipse.jetty.server.Server.doStart(Server.java:345)] [main] - jetty-9.3.11.v20160721
+2016-12-23 09:48:04,011 [INFO] [org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1172)] [pool-2-thread-2] - Using default implementation for ThreadExecutor
+2016-12-23 09:48:04,011 [INFO] [org.quartz.simpl.SimpleThreadPool.initialize(SimpleThreadPool.java:268)] [pool-2-thread-2] - Job execution threads will use class loader of thread: pool-2-thread-2
+2016-12-23 09:48:04,042 [INFO] [org.quartz.core.SchedulerSignalerImpl.<init>(SchedulerSignalerImpl.java:61)] [pool-2-thread-2] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2016-12-23 09:48:04,042 [INFO] [org.quartz.core.QuartzScheduler.<init>(QuartzScheduler.java:240)] [pool-2-thread-2] - Quartz Scheduler v.2.2.3 created.
+2016-12-23 09:48:04,042 [INFO] [org.quartz.simpl.RAMJobStore.initialize(RAMJobStore.java:155)] [pool-2-thread-2] - RAMJobStore initialized.
+2016-12-23 09:48:04,042 [INFO] [org.quartz.core.QuartzScheduler.initialize(QuartzScheduler.java:305)] [pool-2-thread-2] - Scheduler meta-data: Quartz Scheduler (v2.2.3) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-12-23 09:48:04,042 [INFO] [org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1327)] [pool-2-thread-2] - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2016-12-23 09:48:04,042 [INFO] [org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1331)] [pool-2-thread-2] - Quartz scheduler version: 2.2.3
+2016-12-23 09:48:04,057 [INFO] [org.quartz.core.QuartzScheduler.start(QuartzScheduler.java:575)] [pool-2-thread-2] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-12-23 09:48:04,073 [INFO] [org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:781)] [main] - Started o.e.j.s.h.ContextHandler@39ba5a14{/sysconfig,null,AVAILABLE}
+2016-12-23 09:48:04,227 [INFO] [org.eclipse.jetty.server.AbstractConnector.doStart(AbstractConnector.java:270)] [main] - Started ServerConnector@5419f379{HTTP/1.1,[http/1.1]}{0.0.0.0:9527}
+2016-12-23 09:48:04,227 [INFO] [org.eclipse.jetty.server.Server.doStart(Server.java:403)] [main] - Started @614ms
+2016-12-23 09:48:04,227 [INFO] [cn.ac.iie.hy.areamonitor.server.AreaMonitorServer.startup(AreaMonitorServer.java:74)] [main] - start system successfully
+2016-12-23 09:50:17,262 [INFO] [cn.ac.iie.hy.areamonitor.server.AreaMonitorServer.init(AreaMonitorServer.java:80)] [main] - initializing system...
+2016-12-23 09:50:17,262 [INFO] [cn.ac.iie.hy.areamonitor.server.AreaMonitorServer.init(AreaMonitorServer.java:81)] [main] - getting configuration from configuration file sysconfig.properties
+2016-12-23 09:50:17,315 [INFO] [org.eclipse.jetty.util.log.Log.initialized(Log.java:192)] [main] - Logging initialized @245ms
+2016-12-23 09:50:17,362 [INFO] [cn.ac.iie.hy.areamonitor.server.AreaMonitorServer.init(AreaMonitorServer.java:108)] [main] - intialize system successfully
+2016-12-23 09:50:17,362 [INFO] [cn.ac.iie.hy.areamonitor.server.AreaMonitorServer.init(AreaMonitorServer.java:109)] [main] - config host is http://127.0.0.1:9527/sysconfig
+2016-12-23 09:50:17,400 [INFO] [cn.ac.iie.hy.areamonitor.server.AreaMonitorServer.startup(AreaMonitorServer.java:72)] [main] - starting system...
+2016-12-23 09:50:17,400 [INFO] [org.eclipse.jetty.server.Server.doStart(Server.java:345)] [main] - jetty-9.3.11.v20160721
+2016-12-23 09:50:17,446 [INFO] [org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1172)] [pool-2-thread-2] - Using default implementation for ThreadExecutor
+2016-12-23 09:50:17,446 [INFO] [org.quartz.simpl.SimpleThreadPool.initialize(SimpleThreadPool.java:268)] [pool-2-thread-2] - Job execution threads will use class loader of thread: pool-2-thread-2
+2016-12-23 09:50:17,462 [INFO] [org.quartz.core.SchedulerSignalerImpl.<init>(SchedulerSignalerImpl.java:61)] [pool-2-thread-2] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2016-12-23 09:50:17,462 [INFO] [org.quartz.core.QuartzScheduler.<init>(QuartzScheduler.java:240)] [pool-2-thread-2] - Quartz Scheduler v.2.2.3 created.
+2016-12-23 09:50:17,462 [INFO] [org.quartz.simpl.RAMJobStore.initialize(RAMJobStore.java:155)] [pool-2-thread-2] - RAMJobStore initialized.
+2016-12-23 09:50:17,462 [INFO] [org.quartz.core.QuartzScheduler.initialize(QuartzScheduler.java:305)] [pool-2-thread-2] - Scheduler meta-data: Quartz Scheduler (v2.2.3) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-12-23 09:50:17,462 [INFO] [org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1327)] [pool-2-thread-2] - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2016-12-23 09:50:17,462 [INFO] [org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1331)] [pool-2-thread-2] - Quartz scheduler version: 2.2.3
+2016-12-23 09:50:17,484 [INFO] [org.quartz.core.QuartzScheduler.start(QuartzScheduler.java:575)] [pool-2-thread-2] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-12-23 09:50:17,500 [INFO] [org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:781)] [main] - Started o.e.j.s.h.ContextHandler@39ba5a14{/sysconfig,null,AVAILABLE}
+2016-12-23 09:50:17,631 [INFO] [org.eclipse.jetty.server.AbstractConnector.doStart(AbstractConnector.java:270)] [main] - Started ServerConnector@5419f379{HTTP/1.1,[http/1.1]}{0.0.0.0:9527}
+2016-12-23 09:50:17,631 [INFO] [org.eclipse.jetty.server.Server.doStart(Server.java:403)] [main] - Started @572ms
+2016-12-23 09:50:17,631 [INFO] [cn.ac.iie.hy.areamonitor.server.AreaMonitorServer.startup(AreaMonitorServer.java:74)] [main] - start system successfully
+2016-12-23 09:51:33,165 [INFO] [cn.ac.iie.hy.areamonitor.server.AreaMonitorServer.init(AreaMonitorServer.java:80)] [main] - initializing system...
+2016-12-23 09:51:33,165 [INFO] [cn.ac.iie.hy.areamonitor.server.AreaMonitorServer.init(AreaMonitorServer.java:81)] [main] - getting configuration from configuration file sysconfig.properties
+2016-12-23 09:51:33,218 [INFO] [org.eclipse.jetty.util.log.Log.initialized(Log.java:192)] [main] - Logging initialized @245ms
+2016-12-23 09:51:33,250 [INFO] [cn.ac.iie.hy.areamonitor.server.AreaMonitorServer.init(AreaMonitorServer.java:108)] [main] - intialize system successfully
+2016-12-23 09:51:33,250 [INFO] [cn.ac.iie.hy.areamonitor.server.AreaMonitorServer.init(AreaMonitorServer.java:109)] [main] - config host is http://127.0.0.1:9527/sysconfig
+2016-12-23 09:51:33,303 [INFO] [cn.ac.iie.hy.areamonitor.server.AreaMonitorServer.startup(AreaMonitorServer.java:72)] [main] - starting system...
+2016-12-23 09:51:33,303 [INFO] [org.eclipse.jetty.server.Server.doStart(Server.java:345)] [main] - jetty-9.3.11.v20160721
+2016-12-23 09:51:33,334 [INFO] [org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1172)] [pool-2-thread-2] - Using default implementation for ThreadExecutor
+2016-12-23 09:51:33,334 [INFO] [org.quartz.simpl.SimpleThreadPool.initialize(SimpleThreadPool.java:268)] [pool-2-thread-2] - Job execution threads will use class loader of thread: pool-2-thread-2
+2016-12-23 09:51:33,366 [INFO] [org.quartz.core.SchedulerSignalerImpl.<init>(SchedulerSignalerImpl.java:61)] [pool-2-thread-2] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2016-12-23 09:51:33,366 [INFO] [org.quartz.core.QuartzScheduler.<init>(QuartzScheduler.java:240)] [pool-2-thread-2] - Quartz Scheduler v.2.2.3 created.
+2016-12-23 09:51:33,366 [INFO] [org.quartz.simpl.RAMJobStore.initialize(RAMJobStore.java:155)] [pool-2-thread-2] - RAMJobStore initialized.
+2016-12-23 09:51:33,366 [INFO] [org.quartz.core.QuartzScheduler.initialize(QuartzScheduler.java:305)] [pool-2-thread-2] - Scheduler meta-data: Quartz Scheduler (v2.2.3) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-12-23 09:51:33,366 [INFO] [org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1327)] [pool-2-thread-2] - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2016-12-23 09:51:33,366 [INFO] [org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1331)] [pool-2-thread-2] - Quartz scheduler version: 2.2.3
+2016-12-23 09:51:33,385 [INFO] [org.quartz.core.QuartzScheduler.start(QuartzScheduler.java:575)] [pool-2-thread-2] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-12-23 09:51:33,403 [INFO] [org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:781)] [main] - Started o.e.j.s.h.ContextHandler@39ba5a14{/sysconfig,null,AVAILABLE}
+2016-12-23 09:51:33,551 [INFO] [org.eclipse.jetty.server.AbstractConnector.doStart(AbstractConnector.java:270)] [main] - Started ServerConnector@42066fba{HTTP/1.1,[http/1.1]}{0.0.0.0:9527}
+2016-12-23 09:51:33,551 [INFO] [org.eclipse.jetty.server.Server.doStart(Server.java:403)] [main] - Started @598ms
+2016-12-23 09:51:33,551 [INFO] [cn.ac.iie.hy.areamonitor.server.AreaMonitorServer.startup(AreaMonitorServer.java:74)] [main] - start system successfully
+2016-12-23 09:52:21,203 [INFO] [cn.ac.iie.hy.areamonitor.server.AreaMonitorServer.init(AreaMonitorServer.java:80)] [main] - initializing system...
+2016-12-23 09:52:21,203 [INFO] [cn.ac.iie.hy.areamonitor.server.AreaMonitorServer.init(AreaMonitorServer.java:81)] [main] - getting configuration from configuration file sysconfig.properties
+2016-12-23 09:52:21,250 [INFO] [org.eclipse.jetty.util.log.Log.initialized(Log.java:192)] [main] - Logging initialized @249ms
+2016-12-23 09:52:21,303 [INFO] [cn.ac.iie.hy.areamonitor.server.AreaMonitorServer.init(AreaMonitorServer.java:108)] [main] - intialize system successfully
+2016-12-23 09:52:21,303 [INFO] [cn.ac.iie.hy.areamonitor.server.AreaMonitorServer.init(AreaMonitorServer.java:109)] [main] - config host is http://127.0.0.1:9527/sysconfig
+2016-12-23 09:52:21,335 [INFO] [cn.ac.iie.hy.areamonitor.server.AreaMonitorServer.startup(AreaMonitorServer.java:72)] [main] - starting system...
+2016-12-23 09:52:21,335 [INFO] [org.eclipse.jetty.server.Server.doStart(Server.java:345)] [main] - jetty-9.3.11.v20160721
+2016-12-23 09:52:21,382 [INFO] [org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1172)] [pool-2-thread-2] - Using default implementation for ThreadExecutor
+2016-12-23 09:52:21,382 [INFO] [org.quartz.simpl.SimpleThreadPool.initialize(SimpleThreadPool.java:268)] [pool-2-thread-2] - Job execution threads will use class loader of thread: pool-2-thread-2
+2016-12-23 09:52:21,404 [INFO] [org.quartz.core.SchedulerSignalerImpl.<init>(SchedulerSignalerImpl.java:61)] [pool-2-thread-2] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2016-12-23 09:52:21,404 [INFO] [org.quartz.core.QuartzScheduler.<init>(QuartzScheduler.java:240)] [pool-2-thread-2] - Quartz Scheduler v.2.2.3 created.
+2016-12-23 09:52:21,404 [INFO] [org.quartz.simpl.RAMJobStore.initialize(RAMJobStore.java:155)] [pool-2-thread-2] - RAMJobStore initialized.
+2016-12-23 09:52:21,404 [INFO] [org.quartz.core.QuartzScheduler.initialize(QuartzScheduler.java:305)] [pool-2-thread-2] - Scheduler meta-data: Quartz Scheduler (v2.2.3) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-12-23 09:52:21,404 [INFO] [org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1327)] [pool-2-thread-2] - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2016-12-23 09:52:21,404 [INFO] [org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1331)] [pool-2-thread-2] - Quartz scheduler version: 2.2.3
+2016-12-23 09:52:21,419 [INFO] [org.quartz.core.QuartzScheduler.start(QuartzScheduler.java:575)] [pool-2-thread-2] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-12-23 09:52:21,451 [INFO] [org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:781)] [main] - Started o.e.j.s.h.ContextHandler@39ba5a14{/sysconfig,null,AVAILABLE}
+2016-12-23 09:52:21,582 [INFO] [org.eclipse.jetty.server.AbstractConnector.doStart(AbstractConnector.java:270)] [main] - Started ServerConnector@4520ebad{HTTP/1.1,[http/1.1]}{0.0.0.0:9527}
+2016-12-23 09:52:21,582 [INFO] [org.eclipse.jetty.server.Server.doStart(Server.java:403)] [main] - Started @592ms
+2016-12-23 09:52:21,597 [INFO] [cn.ac.iie.hy.areamonitor.server.AreaMonitorServer.startup(AreaMonitorServer.java:74)] [main] - start system successfully
+2016-12-23 09:53:23,466 [INFO] [cn.ac.iie.hy.areamonitor.server.AreaMonitorServer.init(AreaMonitorServer.java:80)] [main] - initializing system...
+2016-12-23 09:53:23,466 [INFO] [cn.ac.iie.hy.areamonitor.server.AreaMonitorServer.init(AreaMonitorServer.java:81)] [main] - getting configuration from configuration file sysconfig.properties
+2016-12-23 09:53:23,520 [INFO] [org.eclipse.jetty.util.log.Log.initialized(Log.java:192)] [main] - Logging initialized @272ms
+2016-12-23 09:53:23,567 [INFO] [cn.ac.iie.hy.areamonitor.server.AreaMonitorServer.init(AreaMonitorServer.java:108)] [main] - intialize system successfully
+2016-12-23 09:53:23,567 [INFO] [cn.ac.iie.hy.areamonitor.server.AreaMonitorServer.init(AreaMonitorServer.java:109)] [main] - config host is http://127.0.0.1:9527/sysconfig
+2016-12-23 09:53:23,598 [INFO] [cn.ac.iie.hy.areamonitor.server.AreaMonitorServer.startup(AreaMonitorServer.java:72)] [main] - starting system...
+2016-12-23 09:53:23,616 [INFO] [org.eclipse.jetty.server.Server.doStart(Server.java:345)] [main] - jetty-9.3.11.v20160721
+2016-12-23 09:53:23,651 [INFO] [org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1172)] [pool-2-thread-2] - Using default implementation for ThreadExecutor
+2016-12-23 09:53:23,651 [INFO] [org.quartz.simpl.SimpleThreadPool.initialize(SimpleThreadPool.java:268)] [pool-2-thread-2] - Job execution threads will use class loader of thread: pool-2-thread-2
+2016-12-23 09:53:23,667 [INFO] [org.quartz.core.SchedulerSignalerImpl.<init>(SchedulerSignalerImpl.java:61)] [pool-2-thread-2] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2016-12-23 09:53:23,667 [INFO] [org.quartz.core.QuartzScheduler.<init>(QuartzScheduler.java:240)] [pool-2-thread-2] - Quartz Scheduler v.2.2.3 created.
+2016-12-23 09:53:23,667 [INFO] [org.quartz.simpl.RAMJobStore.initialize(RAMJobStore.java:155)] [pool-2-thread-2] - RAMJobStore initialized.
+2016-12-23 09:53:23,667 [INFO] [org.quartz.core.QuartzScheduler.initialize(QuartzScheduler.java:305)] [pool-2-thread-2] - Scheduler meta-data: Quartz Scheduler (v2.2.3) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-12-23 09:53:23,667 [INFO] [org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1327)] [pool-2-thread-2] - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2016-12-23 09:53:23,667 [INFO] [org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1331)] [pool-2-thread-2] - Quartz scheduler version: 2.2.3
+2016-12-23 09:53:23,683 [INFO] [org.quartz.core.QuartzScheduler.start(QuartzScheduler.java:575)] [pool-2-thread-2] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-12-23 09:53:23,715 [INFO] [org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:781)] [main] - Started o.e.j.s.h.ContextHandler@39ba5a14{/sysconfig,null,AVAILABLE}
+2016-12-23 09:53:23,852 [INFO] [org.eclipse.jetty.server.AbstractConnector.doStart(AbstractConnector.java:270)] [main] - Started ServerConnector@4520ebad{HTTP/1.1,[http/1.1]}{0.0.0.0:9527}
+2016-12-23 09:53:23,852 [INFO] [org.eclipse.jetty.server.Server.doStart(Server.java:403)] [main] - Started @618ms
+2016-12-23 09:53:23,852 [INFO] [cn.ac.iie.hy.areamonitor.server.AreaMonitorServer.startup(AreaMonitorServer.java:74)] [main] - start system successfully
+2016-12-23 09:59:52,790 [INFO] [cn.ac.iie.hy.areamonitor.server.AreaMonitorServer.init(AreaMonitorServer.java:80)] [main] - initializing system...
+2016-12-23 09:59:52,790 [INFO] [cn.ac.iie.hy.areamonitor.server.AreaMonitorServer.init(AreaMonitorServer.java:81)] [main] - getting configuration from configuration file sysconfig.properties
+2016-12-23 09:59:52,843 [INFO] [org.eclipse.jetty.util.log.Log.initialized(Log.java:192)] [main] - Logging initialized @261ms
+2016-12-23 09:59:52,890 [INFO] [cn.ac.iie.hy.areamonitor.server.AreaMonitorServer.init(AreaMonitorServer.java:108)] [main] - intialize system successfully
+2016-12-23 09:59:52,890 [INFO] [cn.ac.iie.hy.areamonitor.server.AreaMonitorServer.init(AreaMonitorServer.java:109)] [main] - config host is http://127.0.0.1:9527/sysconfig
+2016-12-23 09:59:52,928 [INFO] [cn.ac.iie.hy.areamonitor.server.AreaMonitorServer.startup(AreaMonitorServer.java:72)] [main] - starting system...
+2016-12-23 09:59:52,928 [INFO] [org.eclipse.jetty.server.Server.doStart(Server.java:345)] [main] - jetty-9.3.11.v20160721
+2016-12-23 09:59:52,959 [INFO] [org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1172)] [pool-2-thread-2] - Using default implementation for ThreadExecutor
+2016-12-23 09:59:52,975 [INFO] [org.quartz.simpl.SimpleThreadPool.initialize(SimpleThreadPool.java:268)] [pool-2-thread-2] - Job execution threads will use class loader of thread: pool-2-thread-2
+2016-12-23 09:59:52,990 [INFO] [org.quartz.core.SchedulerSignalerImpl.<init>(SchedulerSignalerImpl.java:61)] [pool-2-thread-2] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2016-12-23 09:59:52,990 [INFO] [org.quartz.core.QuartzScheduler.<init>(QuartzScheduler.java:240)] [pool-2-thread-2] - Quartz Scheduler v.2.2.3 created.
+2016-12-23 09:59:52,990 [INFO] [org.quartz.simpl.RAMJobStore.initialize(RAMJobStore.java:155)] [pool-2-thread-2] - RAMJobStore initialized.
+2016-12-23 09:59:52,990 [INFO] [org.quartz.core.QuartzScheduler.initialize(QuartzScheduler.java:305)] [pool-2-thread-2] - Scheduler meta-data: Quartz Scheduler (v2.2.3) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-12-23 09:59:52,990 [INFO] [org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1327)] [pool-2-thread-2] - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2016-12-23 09:59:52,990 [INFO] [org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1331)] [pool-2-thread-2] - Quartz scheduler version: 2.2.3
+2016-12-23 09:59:53,011 [INFO] [org.quartz.core.QuartzScheduler.start(QuartzScheduler.java:575)] [pool-2-thread-2] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-12-23 09:59:53,012 [INFO] [org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:781)] [main] - Started o.e.j.s.h.ContextHandler@39ba5a14{/sysconfig,null,AVAILABLE}
+2016-12-23 09:59:53,212 [INFO] [org.eclipse.jetty.server.AbstractConnector.doStart(AbstractConnector.java:270)] [main] - Started ServerConnector@5419f379{HTTP/1.1,[http/1.1]}{0.0.0.0:9527}
+2016-12-23 09:59:53,212 [INFO] [org.eclipse.jetty.server.Server.doStart(Server.java:403)] [main] - Started @635ms
+2016-12-23 09:59:53,212 [INFO] [cn.ac.iie.hy.areamonitor.server.AreaMonitorServer.startup(AreaMonitorServer.java:74)] [main] - start system successfully
+2016-12-23 13:54:13,186 [INFO] [cn.ac.iie.hy.areamonitor.server.AreaMonitorServer.init(AreaMonitorServer.java:80)] [main] - initializing system...
+2016-12-23 13:54:13,188 [INFO] [cn.ac.iie.hy.areamonitor.server.AreaMonitorServer.init(AreaMonitorServer.java:81)] [main] - getting configuration from configuration file sysconfig.properties
+2016-12-23 13:54:13,228 [INFO] [org.eclipse.jetty.util.log.Log.initialized(Log.java:192)] [main] - Logging initialized @269ms
+2016-12-23 13:54:13,277 [INFO] [cn.ac.iie.hy.areamonitor.server.AreaMonitorServer.init(AreaMonitorServer.java:108)] [main] - intialize system successfully
+2016-12-23 13:54:13,278 [INFO] [cn.ac.iie.hy.areamonitor.server.AreaMonitorServer.init(AreaMonitorServer.java:109)] [main] - config host is http://127.0.0.1:9527/sysconfig
+2016-12-23 13:54:13,369 [INFO] [cn.ac.iie.hy.areamonitor.server.AreaMonitorServer.startup(AreaMonitorServer.java:72)] [main] - starting system...
+2016-12-23 13:54:13,371 [INFO] [org.eclipse.jetty.server.Server.doStart(Server.java:345)] [main] - jetty-9.3.11.v20160721
+2016-12-23 13:54:13,411 [INFO] [org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1172)] [pool-2-thread-2] - Using default implementation for ThreadExecutor
+2016-12-23 13:54:13,415 [INFO] [org.quartz.simpl.SimpleThreadPool.initialize(SimpleThreadPool.java:268)] [pool-2-thread-2] - Job execution threads will use class loader of thread: pool-2-thread-2
+2016-12-23 13:54:13,432 [INFO] [org.quartz.core.SchedulerSignalerImpl.<init>(SchedulerSignalerImpl.java:61)] [pool-2-thread-2] - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2016-12-23 13:54:13,432 [INFO] [org.quartz.core.QuartzScheduler.<init>(QuartzScheduler.java:240)] [pool-2-thread-2] - Quartz Scheduler v.2.2.3 created.
+2016-12-23 13:54:13,434 [INFO] [org.quartz.simpl.RAMJobStore.initialize(RAMJobStore.java:155)] [pool-2-thread-2] - RAMJobStore initialized.
+2016-12-23 13:54:13,436 [INFO] [org.quartz.core.QuartzScheduler.initialize(QuartzScheduler.java:305)] [pool-2-thread-2] - Scheduler meta-data: Quartz Scheduler (v2.2.3) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2016-12-23 13:54:13,436 [INFO] [org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1327)] [pool-2-thread-2] - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2016-12-23 13:54:13,436 [INFO] [org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1331)] [pool-2-thread-2] - Quartz scheduler version: 2.2.3
+2016-12-23 13:54:13,447 [INFO] [org.quartz.core.QuartzScheduler.start(QuartzScheduler.java:575)] [pool-2-thread-2] - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2016-12-23 13:54:13,481 [INFO] [org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:781)] [main] - Started o.e.j.s.h.ContextHandler@39ba5a14{/sysconfig,null,AVAILABLE}
+2016-12-23 13:54:13,634 [INFO] [org.eclipse.jetty.server.AbstractConnector.doStart(AbstractConnector.java:270)] [main] - Started ServerConnector@7a7e8fb{HTTP/1.1,[http/1.1]}{0.0.0.0:9527}
+2016-12-23 13:54:13,634 [INFO] [org.eclipse.jetty.server.Server.doStart(Server.java:403)] [main] - Started @677ms
+2016-12-23 13:54:13,635 [INFO] [cn.ac.iie.hy.areamonitor.server.AreaMonitorServer.startup(AreaMonitorServer.java:74)] [main] - start system successfully
+2016-12-23 13:55:00,034 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-1] - 0300000038 : 0,0
+2016-12-23 13:55:00,036 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-1] - 0300000039 : 0,0
+2016-12-23 13:55:00,037 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-1] - 0300000078 : 0,0
+2016-12-23 13:55:00,037 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-1] - 0300000079 : 0,0
+2016-12-23 13:55:00,037 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-1] - 0300000076 : 0,0
+2016-12-23 13:56:00,003 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-2] - 0300000107 : 0,0
+2016-12-23 13:56:00,005 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-2] - 0300000038 : 0,0
+2016-12-23 13:56:00,006 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-2] - 0300000039 : 0,0
+2016-12-23 13:56:00,007 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-2] - 0300000105 : 0,0
+2016-12-23 13:56:00,008 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-2] - 0300000146 : 0,0
+2016-12-23 13:56:00,008 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-2] - 0300000103 : 0,0
+2016-12-23 13:56:00,009 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-2] - 0300000078 : 0,0
+2016-12-23 13:56:00,009 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-2] - 0300000079 : 0,0
+2016-12-23 13:56:00,010 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-2] - 0300000076 : 0,0
+2016-12-23 13:56:00,011 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-2] - 0300000032 : 0,0
+2016-12-23 13:56:00,011 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-2] - 0300000033 : 0,0
+2016-12-23 13:56:00,012 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-2] - 0300000077 : 0,0
+2016-12-23 13:56:00,013 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-2] - 0300000074 : 0,0
+2016-12-23 13:56:00,014 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-2] - 0300000083 : 0,0
+2016-12-23 13:56:00,014 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-2] - 0300000040 : 0,0
+2016-12-23 13:56:00,016 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-2] - 0300000084 : 0,0
+2016-12-23 13:56:00,016 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-2] - 0300000081 : 0,0
+2016-12-23 13:56:00,017 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-2] - 0300000082 : 0,0
+2016-12-23 13:56:00,017 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-2] - 0300000080 : 0,0
+2016-12-23 13:57:00,002 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-3] - 0300000107 : 0,0
+2016-12-23 13:57:00,003 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-3] - 0300000038 : 0,0
+2016-12-23 13:57:00,004 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-3] - 0300000039 : 0,0
+2016-12-23 13:57:00,004 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-3] - 0300000105 : 0,0
+2016-12-23 13:57:00,005 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-3] - 0300000146 : 0,0
+2016-12-23 13:57:00,005 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-3] - 0300000103 : 0,0
+2016-12-23 13:57:00,022 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-3] - 0300000147 : 0,0
+2016-12-23 13:57:00,023 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-3] - 0300000078 : 0,0
+2016-12-23 13:57:00,023 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-3] - 0300000079 : 0,0
+2016-12-23 13:57:00,024 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-3] - 0300000076 : 0,0
+2016-12-23 13:57:00,024 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-3] - 0300000032 : 0,0
+2016-12-23 13:57:00,025 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-3] - 0300000033 : 0,0
+2016-12-23 13:57:00,025 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-3] - 0300000077 : 0,0
+2016-12-23 13:57:00,025 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-3] - 0300000074 : 0,0
+2016-12-23 13:57:00,026 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-3] - 0300000083 : 0,0
+2016-12-23 13:57:00,026 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-3] - 0300000040 : 0,0
+2016-12-23 13:57:00,027 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-3] - 0300000084 : 0,0
+2016-12-23 13:57:00,027 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-3] - 0300000081 : 0,0
+2016-12-23 13:57:00,027 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-3] - 0300000082 : 0,0
+2016-12-23 13:57:00,028 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-3] - 0300000080 : 0,0
+2016-12-23 13:58:00,002 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-4] - 0300000038 : 0,0
+2016-12-23 13:58:00,003 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-4] - 0300000039 : 0,0
+2016-12-23 13:58:00,003 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-4] - 0300000078 : 0,0
+2016-12-23 13:58:00,004 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-4] - 0300000079 : 0,0
+2016-12-23 13:58:00,004 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-4] - 0300000076 : 0,0
+2016-12-23 13:58:00,004 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-4] - 0300000032 : 0,0
+2016-12-23 13:58:00,005 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-4] - 0300000033 : 0,0
+2016-12-23 13:58:00,005 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-4] - 0300000077 : 0,0
+2016-12-23 13:58:00,006 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-4] - 0300000074 : 0,0
+2016-12-23 13:58:00,006 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-4] - 0300000083 : 0,0
+2016-12-23 13:58:00,006 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-4] - 0300000040 : 0,0
+2016-12-23 13:58:00,007 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-4] - 0300000084 : 0,0
+2016-12-23 13:58:00,007 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-4] - 0300000081 : 0,0
+2016-12-23 13:58:00,007 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-4] - 0300000082 : 0,0
+2016-12-23 13:58:00,009 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-4] - 0300000080 : 0,0
+2016-12-23 13:58:00,009 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-4] - 0300000107 : 0,0
+2016-12-23 13:58:00,009 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-4] - 0300000105 : 0,0
+2016-12-23 13:58:00,010 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-4] - 0300000146 : 0,0
+2016-12-23 13:58:00,010 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-4] - 0300000103 : 0,0
+2016-12-23 13:58:00,011 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-4] - 0300000147 : 0,0
+2016-12-23 13:58:00,012 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-4] - 0300000144 : 0,0
+2016-12-23 13:58:00,012 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-4] - 0300000068 : 0,0
+2016-12-23 13:58:00,012 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-4] - 0300000101 : 0,0
+2016-12-23 13:58:00,013 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-4] - 0300000145 : 0,0
+2016-12-23 13:58:00,013 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-4] - 0300000066 : 0,0
+2016-12-23 13:59:00,002 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-5] - 0300000038 : 0,0
+2016-12-23 13:59:00,003 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-5] - 0300000039 : 0,0
+2016-12-23 13:59:00,003 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-5] - 0300000078 : 0,0
+2016-12-23 13:59:00,004 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-5] - 0300000079 : 0,0
+2016-12-23 13:59:00,004 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-5] - 0300000076 : 0,0
+2016-12-23 13:59:00,005 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-5] - 0300000032 : 0,0
+2016-12-23 13:59:00,005 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-5] - 0300000033 : 0,0
+2016-12-23 13:59:00,006 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-5] - 0300000077 : 0,0
+2016-12-23 13:59:00,006 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-5] - 0300000074 : 0,0
+2016-12-23 13:59:00,007 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-5] - 0300000083 : 0,0
+2016-12-23 13:59:00,007 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-5] - 0300000040 : 0,0
+2016-12-23 13:59:00,008 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-5] - 0300000084 : 0,0
+2016-12-23 13:59:00,008 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-5] - 0300000081 : 0,0
+2016-12-23 13:59:00,009 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-5] - 0300000082 : 0,0
+2016-12-23 13:59:00,009 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-5] - 0300000080 : 0,0
+2016-12-23 13:59:00,010 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-5] - 0300000107 : 0,0
+2016-12-23 13:59:00,010 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-5] - 0300000105 : 0,0
+2016-12-23 13:59:00,011 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-5] - 0300000146 : 0,0
+2016-12-23 13:59:00,011 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-5] - 0300000103 : 0,0
+2016-12-23 13:59:00,012 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-5] - 0300000147 : 0,0
+2016-12-23 13:59:00,014 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-5] - 0300000144 : 0,0
+2016-12-23 13:59:00,014 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-5] - 0300000068 : 0,0
+2016-12-23 13:59:00,015 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-5] - 0300000101 : 0,0
+2016-12-23 13:59:00,015 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-5] - 0300000145 : 0,0
+2016-12-23 13:59:00,016 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-5] - 0300000066 : 0,0
+2016-12-23 13:59:00,016 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-5] - 0300000140 : 0,0
+2016-12-23 13:59:00,017 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-5] - 0300000141 : 0,0
+2016-12-23 13:59:00,017 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-5] - 0300000064 : 0,0
+2016-12-23 13:59:00,017 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-5] - 0300000072 : 0,0
+2016-12-23 13:59:00,017 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-5] - 0300000073 : 0,0
+2016-12-23 13:59:00,018 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-5] - 0300000070 : 0,0
+2016-12-23 13:59:00,018 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-5] - 0300000071 : 0,0
+2016-12-23 14:00:00,003 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-6] - 0300000139 : 0,0
+2016-12-23 14:00:00,004 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-6] - 0300000038 : 0,0
+2016-12-23 14:00:00,005 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-6] - 0300000039 : 0,0
+2016-12-23 14:00:00,006 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-6] - 0300000078 : 0,0
+2016-12-23 14:00:00,006 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-6] - 0300000079 : 0,0
+2016-12-23 14:00:00,007 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-6] - 0300000076 : 0,0
+2016-12-23 14:00:00,007 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-6] - 0300000032 : 0,0
+2016-12-23 14:00:00,008 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-6] - 0300000033 : 0,0
+2016-12-23 14:00:00,008 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-6] - 0300000077 : 0,0
+2016-12-23 14:00:00,009 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-6] - 0300000074 : 0,0
+2016-12-23 14:00:00,009 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-6] - 0300000083 : 0,0
+2016-12-23 14:00:00,009 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-6] - 0300000040 : 0,0
+2016-12-23 14:00:00,010 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-6] - 0300000084 : 0,0
+2016-12-23 14:00:00,010 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-6] - 0300000081 : 0,0
+2016-12-23 14:00:00,010 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-6] - 0300000082 : 0,0
+2016-12-23 14:00:00,011 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-6] - 0300000080 : 0,0
+2016-12-23 14:00:00,011 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-6] - 0300000107 : 0,0
+2016-12-23 14:00:00,011 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-6] - 0300000105 : 0,0
+2016-12-23 14:00:00,012 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-6] - 0300000146 : 0,0
+2016-12-23 14:00:00,012 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-6] - 0300000103 : 0,0
+2016-12-23 14:00:00,014 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-6] - 0300000147 : 0,0
+2016-12-23 14:00:00,014 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-6] - 0300000144 : 0,0
+2016-12-23 14:00:00,015 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-6] - 0300000068 : 0,0
+2016-12-23 14:00:00,015 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-6] - 0300000101 : 0,0
+2016-12-23 14:00:00,015 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-6] - 0300000145 : 0,0
+2016-12-23 14:00:00,016 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-6] - 0300000066 : 0,0
+2016-12-23 14:00:00,016 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-6] - 0300000140 : 0,0
+2016-12-23 14:00:00,017 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-6] - 0300000141 : 0,0
+2016-12-23 14:00:00,017 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-6] - 0300000064 : 0,0
+2016-12-23 14:00:00,017 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-6] - 0300000072 : 0,0
+2016-12-23 14:00:00,018 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-6] - 0300000073 : 0,0
+2016-12-23 14:00:00,018 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-6] - 0300000070 : 0,0
+2016-12-23 14:00:00,018 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-6] - 0300000071 : 0,0
+2016-12-23 14:01:00,001 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-7] - 0300000038 : 0,0
+2016-12-23 14:01:00,001 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-7] - 0300000039 : 0,0
+2016-12-23 14:01:00,001 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-7] - 0300000078 : 0,0
+2016-12-23 14:01:00,002 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-7] - 0300000079 : 0,0
+2016-12-23 14:01:00,002 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-7] - 0300000032 : 0,0
+2016-12-23 14:01:00,002 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-7] - 0300000076 : 0,0
+2016-12-23 14:01:00,003 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-7] - 0300000077 : 0,0
+2016-12-23 14:01:00,003 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-7] - 0300000033 : 0,0
+2016-12-23 14:01:00,003 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-7] - 0300000074 : 0,0
+2016-12-23 14:01:00,004 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-7] - 0300000083 : 0,0
+2016-12-23 14:01:00,004 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-7] - 0300000040 : 0,0
+2016-12-23 14:01:00,004 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-7] - 0300000084 : 0,0
+2016-12-23 14:01:00,004 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-7] - 0300000081 : 0,0
+2016-12-23 14:01:00,005 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-7] - 0300000082 : 0,0
+2016-12-23 14:01:00,005 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-7] - 0300000080 : 0,0
+2016-12-23 14:01:00,005 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-7] - 0300000107 : 0,0
+2016-12-23 14:01:00,006 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-7] - 0300000105 : 0,0
+2016-12-23 14:01:00,006 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-7] - 0300000146 : 0,0
+2016-12-23 14:01:00,006 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-7] - 0300000103 : 0,0
+2016-12-23 14:01:00,007 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-7] - 0300000147 : 0,0
+2016-12-23 14:01:00,007 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-7] - 0300000144 : 0,0
+2016-12-23 14:01:00,007 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-7] - 0300000068 : 0,0
+2016-12-23 14:01:00,007 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-7] - 0300000101 : 0,0
+2016-12-23 14:01:00,007 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-7] - 0300000145 : 0,0
+2016-12-23 14:01:00,007 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-7] - 0300000066 : 0,0
+2016-12-23 14:01:00,008 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-7] - 0300000140 : 0,0
+2016-12-23 14:01:00,008 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-7] - 0300000141 : 0,0
+2016-12-23 14:01:00,008 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-7] - 0300000064 : 0,0
+2016-12-23 14:01:00,008 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-7] - 0300000072 : 0,0
+2016-12-23 14:01:00,008 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-7] - 0300000073 : 0,0
+2016-12-23 14:01:00,008 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-7] - 0300000070 : 0,0
+2016-12-23 14:01:00,008 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-7] - 0300000071 : 0,0
+2016-12-23 14:01:00,008 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-7] - 0300000139 : 0,0
+2016-12-23 14:01:00,008 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-7] - 0300000135 : 0,0
+2016-12-23 14:01:00,009 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-7] - 0300000059 : 0,0
+2016-12-23 14:01:00,009 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-7] - 0300000012 : 0,0
+2016-12-23 14:01:00,009 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-7] - 0300000133 : 0,0
+2016-12-23 14:01:00,009 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-7] - 0300000056 : 0,0
+2016-12-23 14:01:00,009 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-7] - 0300000134 : 0,0
+2016-12-23 14:01:00,009 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-7] - 0300000013 : 0,0
+2016-12-23 14:01:00,009 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-7] - 0300000054 : 0,0
+2016-12-23 14:01:00,009 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-7] - 0300000131 : 0,0
+2016-12-23 14:01:00,010 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-7] - 0300000132 : 0,0
+2016-12-23 14:01:00,010 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-7] - 0300000055 : 0,0
+2016-12-23 14:01:00,010 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-7] - 0300000052 : 0,0
+2016-12-23 14:01:00,010 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-7] - 0300000130 : 0,0
+2016-12-23 14:01:00,010 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-7] - 0300000053 : 0,0
+2016-12-23 14:01:00,010 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-7] - 0300000061 : 0,0
+2016-12-23 14:01:00,010 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-7] - 0300000062 : 0,0
+2016-12-23 14:01:00,010 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-7] - 0300000060 : 0,0
+2016-12-23 14:02:00,000 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-8] - 0300000038 : 0,0
+2016-12-23 14:02:00,001 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-8] - 0300000039 : 0,0
+2016-12-23 14:02:00,001 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-8] - 0300000078 : 0,0
+2016-12-23 14:02:00,001 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-8] - 0300000079 : 0,0
+2016-12-23 14:02:00,001 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-8] - 0300000032 : 0,0
+2016-12-23 14:02:00,001 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-8] - 0300000076 : 0,0
+2016-12-23 14:02:00,002 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-8] - 0300000077 : 0,0
+2016-12-23 14:02:00,002 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-8] - 0300000033 : 0,0
+2016-12-23 14:02:00,002 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-8] - 0300000074 : 0,0
+2016-12-23 14:02:00,002 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-8] - 0300000083 : 0,0
+2016-12-23 14:02:00,002 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-8] - 0300000040 : 0,0
+2016-12-23 14:02:00,002 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-8] - 0300000084 : 0,0
+2016-12-23 14:02:00,002 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-8] - 0300000081 : 0,0
+2016-12-23 14:02:00,002 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-8] - 0300000082 : 0,0
+2016-12-23 14:02:00,003 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-8] - 0300000080 : 0,0
+2016-12-23 14:02:00,003 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-8] - 0300000107 : 0,0
+2016-12-23 14:02:00,003 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-8] - 0300000105 : 0,0
+2016-12-23 14:02:00,003 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-8] - 0300000146 : 0,0
+2016-12-23 14:02:00,003 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-8] - 0300000103 : 0,0
+2016-12-23 14:02:00,003 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-8] - 0300000147 : 0,0
+2016-12-23 14:02:00,004 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-8] - 0300000144 : 0,0
+2016-12-23 14:02:00,004 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-8] - 0300000068 : 0,0
+2016-12-23 14:02:00,005 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-8] - 0300000101 : 0,0
+2016-12-23 14:02:00,005 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-8] - 0300000145 : 0,0
+2016-12-23 14:02:00,005 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-8] - 0300000066 : 0,0
+2016-12-23 14:02:00,005 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-8] - 0300000140 : 0,0
+2016-12-23 14:02:00,005 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-8] - 0300000141 : 0,0
+2016-12-23 14:02:00,005 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-8] - 0300000064 : 0,0
+2016-12-23 14:02:00,006 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-8] - 0300000072 : 0,0
+2016-12-23 14:02:00,006 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-8] - 0300000073 : 0,0
+2016-12-23 14:02:00,006 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-8] - 0300000070 : 0,0
+2016-12-23 14:02:00,006 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-8] - 0300000071 : 0,0
+2016-12-23 14:02:00,006 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-8] - 0300000139 : 0,0
+2016-12-23 14:02:00,007 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-8] - 0300000135 : 0,0
+2016-12-23 14:02:00,007 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-8] - 0300000059 : 0,0
+2016-12-23 14:02:00,007 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-8] - 0300000012 : 0,0
+2016-12-23 14:02:00,007 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-8] - 0300000133 : 0,0
+2016-12-23 14:02:00,007 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-8] - 0300000056 : 0,0
+2016-12-23 14:02:00,007 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-8] - 0300000134 : 0,0
+2016-12-23 14:02:00,007 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-8] - 0300000013 : 0,0
+2016-12-23 14:02:00,007 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-8] - 0300000054 : 0,0
+2016-12-23 14:02:00,007 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-8] - 0300000131 : 0,0
+2016-12-23 14:02:00,007 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-8] - 0300000132 : 0,0
+2016-12-23 14:02:00,008 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-8] - 0300000055 : 0,0
+2016-12-23 14:02:00,008 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-8] - 0300000052 : 0,0
+2016-12-23 14:02:00,008 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-8] - 0300000130 : 0,0
+2016-12-23 14:02:00,008 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-8] - 0300000053 : 0,0
+2016-12-23 14:02:00,008 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-8] - 0300000061 : 0,0
+2016-12-23 14:02:00,008 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-8] - 0300000062 : 0,0
+2016-12-23 14:02:00,008 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-8] - 0300000060 : 0,0
+2016-12-23 14:02:00,008 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-8] - 0300000047 : 0,0
+2016-12-23 14:02:00,008 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-8] - 0300000125 : 0,0
+2016-12-23 14:02:00,009 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-8] - 0300000089 : 0,0
+2016-12-23 14:02:00,009 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-8] - 0300000045 : 0,0
+2016-12-23 14:02:00,009 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-8] - 0300000046 : 0,0
+2016-12-23 14:03:00,002 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-9] - 0300000038 : 0,0
+2016-12-23 14:03:00,003 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-9] - 0300000039 : 0,0
+2016-12-23 14:03:00,004 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-9] - 0300000078 : 0,0
+2016-12-23 14:03:00,004 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-9] - 0300000079 : 0,0
+2016-12-23 14:03:00,004 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-9] - 0300000032 : 0,0
+2016-12-23 14:03:00,005 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-9] - 0300000076 : 0,0
+2016-12-23 14:03:00,005 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-9] - 0300000077 : 0,0
+2016-12-23 14:03:00,006 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-9] - 0300000033 : 0,0
+2016-12-23 14:03:00,006 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-9] - 0300000074 : 0,0
+2016-12-23 14:03:00,006 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-9] - 0300000083 : 0,0
+2016-12-23 14:03:00,007 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-9] - 0300000040 : 0,0
+2016-12-23 14:03:00,007 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-9] - 0300000084 : 0,0
+2016-12-23 14:03:00,007 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-9] - 0300000081 : 0,0
+2016-12-23 14:03:00,007 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-9] - 0300000082 : 0,0
+2016-12-23 14:03:00,008 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-9] - 0300000080 : 0,0
+2016-12-23 14:03:00,008 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-9] - 0300000107 : 0,0
+2016-12-23 14:03:00,008 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-9] - 0300000105 : 0,0
+2016-12-23 14:03:00,009 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-9] - 0300000146 : 0,0
+2016-12-23 14:03:00,009 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-9] - 0300000103 : 0,0
+2016-12-23 14:03:00,010 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-9] - 0300000147 : 0,0
+2016-12-23 14:03:00,010 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-9] - 0300000144 : 0,0
+2016-12-23 14:03:00,011 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-9] - 0300000068 : 0,0
+2016-12-23 14:03:00,011 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-9] - 0300000101 : 0,0
+2016-12-23 14:03:00,011 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-9] - 0300000145 : 0,0
+2016-12-23 14:03:00,012 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-9] - 0300000066 : 0,0
+2016-12-23 14:03:00,012 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-9] - 0300000140 : 0,0
+2016-12-23 14:03:00,013 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-9] - 0300000141 : 0,0
+2016-12-23 14:03:00,013 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-9] - 0300000064 : 0,0
+2016-12-23 14:03:00,013 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-9] - 0300000072 : 0,0
+2016-12-23 14:03:00,014 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-9] - 0300000073 : 0,0
+2016-12-23 14:03:00,014 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-9] - 0300000070 : 0,0
+2016-12-23 14:03:00,014 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-9] - 0300000071 : 0,0
+2016-12-23 14:03:00,015 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-9] - 0300000139 : 0,0
+2016-12-23 14:03:00,016 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-9] - 0300000135 : 0,0
+2016-12-23 14:03:00,016 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-9] - 0300000059 : 0,0
+2016-12-23 14:03:00,016 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-9] - 0300000012 : 0,0
+2016-12-23 14:03:00,017 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-9] - 0300000133 : 0,0
+2016-12-23 14:03:00,017 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-9] - 0300000056 : 0,0
+2016-12-23 14:03:00,017 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-9] - 0300000134 : 0,0
+2016-12-23 14:03:00,018 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-9] - 0300000013 : 0,0
+2016-12-23 14:03:00,018 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-9] - 0300000054 : 0,0
+2016-12-23 14:03:00,018 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-9] - 0300000131 : 0,0
+2016-12-23 14:03:00,018 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-9] - 0300000132 : 0,0
+2016-12-23 14:03:00,019 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-9] - 0300000055 : 0,0
+2016-12-23 14:03:00,019 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-9] - 0300000052 : 0,0
+2016-12-23 14:03:00,019 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-9] - 0300000130 : 0,0
+2016-12-23 14:03:00,019 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-9] - 0300000053 : 0,0
+2016-12-23 14:03:00,020 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-9] - 0300000061 : 0,0
+2016-12-23 14:03:00,020 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-9] - 0300000062 : 0,0
+2016-12-23 14:03:00,020 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-9] - 0300000060 : 0,0
+2016-12-23 14:03:00,021 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-9] - 0300000047 : 0,0
+2016-12-23 14:03:00,021 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-9] - 0300000125 : 0,0
+2016-12-23 14:03:00,022 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-9] - 0300000089 : 0,0
+2016-12-23 14:03:00,022 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-9] - 0300000045 : 0,0
+2016-12-23 14:03:00,023 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-9] - 0300000046 : 0,0
+2016-12-23 14:03:00,024 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-9] - 0300000043 : 0,0
+2016-12-23 14:03:00,024 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-9] - 0300000087 : 0,0
+2016-12-23 14:03:00,025 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-9] - 0300000044 : 0,0
+2016-12-23 14:03:00,038 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-9] - 0300000088 : 0,0
+2016-12-23 14:03:00,038 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-9] - 0300000042 : 0,0
+2016-12-23 14:03:00,038 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-9] - 0300000051 : 0,0
+2016-12-23 14:04:00,001 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-10] - 0300000038 : 0,0
+2016-12-23 14:04:00,002 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-10] - 0300000039 : 0,0
+2016-12-23 14:04:00,002 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-10] - 0300000078 : 0,0
+2016-12-23 14:04:00,002 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-10] - 0300000079 : 0,0
+2016-12-23 14:04:00,002 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-10] - 0300000032 : 0,0
+2016-12-23 14:04:00,002 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-10] - 0300000076 : 0,0
+2016-12-23 14:04:00,002 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-10] - 0300000077 : 0,0
+2016-12-23 14:04:00,002 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-10] - 0300000033 : 0,0
+2016-12-23 14:04:00,002 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-10] - 0300000074 : 0,0
+2016-12-23 14:04:00,002 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-10] - 0300000083 : 0,0
+2016-12-23 14:04:00,002 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-10] - 0300000040 : 0,0
+2016-12-23 14:04:00,002 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-10] - 0300000084 : 0,0
+2016-12-23 14:04:00,002 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-10] - 0300000081 : 0,0
+2016-12-23 14:04:00,002 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-10] - 0300000082 : 0,0
+2016-12-23 14:04:00,002 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-10] - 0300000080 : 0,0
+2016-12-23 14:04:00,003 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-10] - 0300000107 : 0,0
+2016-12-23 14:04:00,003 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-10] - 0300000105 : 0,0
+2016-12-23 14:04:00,003 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-10] - 0300000146 : 0,0
+2016-12-23 14:04:00,003 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-10] - 0300000103 : 0,0
+2016-12-23 14:04:00,003 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-10] - 0300000147 : 0,0
+2016-12-23 14:04:00,003 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-10] - 0300000144 : 0,0
+2016-12-23 14:04:00,003 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-10] - 0300000068 : 0,0
+2016-12-23 14:04:00,004 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-10] - 0300000101 : 0,0
+2016-12-23 14:04:00,004 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-10] - 0300000145 : 0,0
+2016-12-23 14:04:00,004 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-10] - 0300000066 : 0,0
+2016-12-23 14:04:00,004 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-10] - 0300000140 : 0,0
+2016-12-23 14:04:00,004 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-10] - 0300000141 : 0,0
+2016-12-23 14:04:00,004 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-10] - 0300000064 : 0,0
+2016-12-23 14:04:00,004 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-10] - 0300000072 : 0,0
+2016-12-23 14:04:00,004 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-10] - 0300000073 : 0,0
+2016-12-23 14:04:00,005 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-10] - 0300000070 : 0,0
+2016-12-23 14:04:00,005 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-10] - 0300000071 : 0,0
+2016-12-23 14:04:00,005 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-10] - 0300000139 : 0,0
+2016-12-23 14:04:00,005 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-10] - 0300000135 : 0,0
+2016-12-23 14:04:00,005 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-10] - 0300000059 : 0,0
+2016-12-23 14:04:00,005 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-10] - 0300000012 : 0,0
+2016-12-23 14:04:00,005 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-10] - 0300000133 : 0,0
+2016-12-23 14:04:00,006 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-10] - 0300000056 : 0,0
+2016-12-23 14:04:00,006 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-10] - 0300000134 : 0,0
+2016-12-23 14:04:00,006 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-10] - 0300000013 : 0,0
+2016-12-23 14:04:00,006 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-10] - 0300000054 : 0,0
+2016-12-23 14:04:00,006 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-10] - 0300000131 : 0,0
+2016-12-23 14:04:00,006 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-10] - 0300000132 : 0,0
+2016-12-23 14:04:00,006 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-10] - 0300000055 : 0,0
+2016-12-23 14:04:00,007 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-10] - 0300000052 : 0,0
+2016-12-23 14:04:00,007 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-10] - 0300000130 : 0,0
+2016-12-23 14:04:00,007 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-10] - 0300000053 : 0,0
+2016-12-23 14:04:00,007 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-10] - 0300000061 : 0,0
+2016-12-23 14:04:00,007 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-10] - 0300000062 : 0,0
+2016-12-23 14:04:00,007 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-10] - 0300000060 : 0,0
+2016-12-23 14:04:00,007 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-10] - 0300000047 : 0,0
+2016-12-23 14:04:00,007 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-10] - 0300000125 : 0,0
+2016-12-23 14:04:00,007 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-10] - 0300000089 : 0,0
+2016-12-23 14:04:00,007 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-10] - 0300000045 : 0,0
+2016-12-23 14:04:00,008 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-10] - 0300000046 : 0,0
+2016-12-23 14:04:00,008 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-10] - 0300000043 : 0,0
+2016-12-23 14:04:00,008 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-10] - 0300000087 : 0,0
+2016-12-23 14:04:00,008 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-10] - 0300000044 : 0,0
+2016-12-23 14:04:00,008 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-10] - 0300000088 : 0,0
+2016-12-23 14:04:00,008 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-10] - 0300000042 : 0,0
+2016-12-23 14:04:00,008 [INFO] [cn.ac.iie.hy.areamonitor.cronjob.ScheduledAreaNumberJobMinite.execute(ScheduledAreaNumberJobMinite.java:85)] [DefaultQuartzScheduler_Worker-10] - 0300000051 : 0,0
